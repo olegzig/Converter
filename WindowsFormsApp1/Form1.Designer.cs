@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.StripMenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.конвертерToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,7 +37,9 @@
             this.MenuConverterChemistry = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReaderPhysics = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReaderChemistry = new System.Windows.Forms.ToolStripMenuItem();
+            this.DefaultImage = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -101,14 +104,24 @@
             this.MenuReaderChemistry.Size = new System.Drawing.Size(180, 22);
             this.MenuReaderChemistry.Text = "Химия";
             // 
+            // DefaultImage
+            // 
+            this.DefaultImage.Image = ((System.Drawing.Image)(resources.GetObject("DefaultImage.Image")));
+            this.DefaultImage.Location = new System.Drawing.Point(0, 28);
+            this.DefaultImage.Name = "DefaultImage";
+            this.DefaultImage.Size = new System.Drawing.Size(731, 454);
+            this.DefaultImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.DefaultImage.TabIndex = 1;
+            this.DefaultImage.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
             this.ClientSize = new System.Drawing.Size(731, 482);
+            this.Controls.Add(this.DefaultImage);
             this.Controls.Add(this.menuStrip1);
-            this.Enabled = false;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6);
@@ -116,6 +129,7 @@
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,6 +145,7 @@
         private System.Windows.Forms.ToolStripMenuItem ридерToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem MenuReaderPhysics;
         private System.Windows.Forms.ToolStripMenuItem MenuReaderChemistry;
+        private System.Windows.Forms.PictureBox DefaultImage;
     }
 }
 
