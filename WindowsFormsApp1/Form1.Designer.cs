@@ -30,9 +30,9 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.StripMenuForm = new System.Windows.Forms.ToolStripMenuItem();
-            this.StripMenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.StripMenuFormConverter = new System.Windows.Forms.ToolStripMenuItem();
             this.StripMenuFormFileReader = new System.Windows.Forms.ToolStripMenuItem();
+            this.StripMenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +45,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(14, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(1400, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(731, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -55,38 +55,38 @@
             this.StripMenuFormConverter,
             this.StripMenuFormFileReader});
             this.StripMenuForm.Name = "StripMenuForm";
-            this.StripMenuForm.Size = new System.Drawing.Size(71, 24);
+            this.StripMenuForm.Size = new System.Drawing.Size(57, 19);
             this.StripMenuForm.Text = "Форма";
-            // 
-            // StripMenuHelp
-            // 
-            this.StripMenuHelp.Name = "StripMenuHelp";
-            this.StripMenuHelp.Size = new System.Drawing.Size(83, 24);
-            this.StripMenuHelp.Text = "Помощь";
             // 
             // StripMenuFormConverter
             // 
             this.StripMenuFormConverter.Name = "StripMenuFormConverter";
-            this.StripMenuFormConverter.Size = new System.Drawing.Size(224, 26);
+            this.StripMenuFormConverter.Size = new System.Drawing.Size(180, 22);
             this.StripMenuFormConverter.Text = "Конвертер";
             // 
             // StripMenuFormFileReader
             // 
             this.StripMenuFormFileReader.Name = "StripMenuFormFileReader";
-            this.StripMenuFormFileReader.Size = new System.Drawing.Size(224, 26);
+            this.StripMenuFormFileReader.Size = new System.Drawing.Size(180, 22);
             this.StripMenuFormFileReader.Text = "Ридер";
+            // 
+            // StripMenuHelp
+            // 
+            this.StripMenuHelp.Name = "StripMenuHelp";
+            this.StripMenuHelp.Size = new System.Drawing.Size(68, 19);
+            this.StripMenuHelp.Text = "Помощь";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
-            this.ClientSize = new System.Drawing.Size(1400, 815);
+            this.ClientSize = new System.Drawing.Size(731, 482);
             this.Controls.Add(this.menuStrip1);
             this.Enabled = false;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
