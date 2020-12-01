@@ -45,7 +45,8 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(14, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(731, 25);
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+            this.menuStrip1.Size = new System.Drawing.Size(648, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -63,27 +64,29 @@
             this.StripMenuFormConverter.Name = "StripMenuFormConverter";
             this.StripMenuFormConverter.Size = new System.Drawing.Size(180, 22);
             this.StripMenuFormConverter.Text = "Конвертер";
+            this.StripMenuFormConverter.Click += new System.EventHandler(this.StripMenuFormConverter_Click);
             // 
             // StripMenuFormFileReader
             // 
             this.StripMenuFormFileReader.Name = "StripMenuFormFileReader";
             this.StripMenuFormFileReader.Size = new System.Drawing.Size(180, 22);
             this.StripMenuFormFileReader.Text = "Ридер";
+            this.StripMenuFormFileReader.Click += new System.EventHandler(this.StripMenuFormFileReader_Click);
             // 
             // StripMenuHelp
             // 
             this.StripMenuHelp.Name = "StripMenuHelp";
             this.StripMenuHelp.Size = new System.Drawing.Size(68, 19);
             this.StripMenuHelp.Text = "Помощь";
+            this.StripMenuHelp.Click += new System.EventHandler(this.StripMenuHelp_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
-            this.ClientSize = new System.Drawing.Size(731, 482);
+            this.ClientSize = new System.Drawing.Size(648, 482);
             this.Controls.Add(this.menuStrip1);
-            this.Enabled = false;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6);
