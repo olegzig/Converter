@@ -70,6 +70,7 @@
             this.StripMenuHelp.Name = "StripMenuHelp";
             this.StripMenuHelp.Size = new System.Drawing.Size(68, 19);
             this.StripMenuHelp.Text = "Помощь";
+            this.StripMenuHelp.Click += new System.EventHandler(this.StripMenuHelp_Click);
             // 
             // конвертерToolStripMenuItem
             // 
@@ -83,14 +84,16 @@
             // MenuConverterPhysics
             // 
             this.MenuConverterPhysics.Name = "MenuConverterPhysics";
-            this.MenuConverterPhysics.Size = new System.Drawing.Size(114, 22);
+            this.MenuConverterPhysics.Size = new System.Drawing.Size(180, 22);
             this.MenuConverterPhysics.Text = "Физика";
+            this.MenuConverterPhysics.Click += new System.EventHandler(this.MenuConverterPhysics_Click);
             // 
             // MenuConverterChemistry
             // 
             this.MenuConverterChemistry.Name = "MenuConverterChemistry";
-            this.MenuConverterChemistry.Size = new System.Drawing.Size(114, 22);
+            this.MenuConverterChemistry.Size = new System.Drawing.Size(180, 22);
             this.MenuConverterChemistry.Text = "Химия";
+            this.MenuConverterChemistry.Click += new System.EventHandler(this.MenuConverterChemistry_Click);
             // 
             // ридерToolStripMenuItem
             // 
@@ -104,14 +107,16 @@
             // MenuReaderPhysics
             // 
             this.MenuReaderPhysics.Name = "MenuReaderPhysics";
-            this.MenuReaderPhysics.Size = new System.Drawing.Size(114, 22);
+            this.MenuReaderPhysics.Size = new System.Drawing.Size(180, 22);
             this.MenuReaderPhysics.Text = "Физика";
+            this.MenuReaderPhysics.Click += new System.EventHandler(this.MenuReaderPhysics_Click);
             // 
             // MenuReaderChemistry
             // 
             this.MenuReaderChemistry.Name = "MenuReaderChemistry";
-            this.MenuReaderChemistry.Size = new System.Drawing.Size(114, 22);
+            this.MenuReaderChemistry.Size = new System.Drawing.Size(180, 22);
             this.MenuReaderChemistry.Text = "Химия";
+            this.MenuReaderChemistry.Click += new System.EventHandler(this.MenuReaderChemistry_Click);
             // 
             // DefaultImage
             // 
