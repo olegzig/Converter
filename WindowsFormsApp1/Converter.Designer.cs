@@ -31,14 +31,14 @@ namespace WindowsFormsApp1
         {
             this.SuspendLayout();
             // 
-            // ConverterForm
+            // Converter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "ConverterForm";
+            this.Name = "Converter";
             this.Text = "ConverterForm";
-            this.Leave += new System.EventHandler(this.ConverterForm_Leave);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Converter_FormClosed);
             this.ResumeLayout(false);
 
         }

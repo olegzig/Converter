@@ -16,5 +16,11 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void Reader_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Form1 f = new Form1();
+            f.Show();
+        }
     }
 }

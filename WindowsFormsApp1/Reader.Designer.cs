@@ -29,10 +29,18 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Reader
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "Reader";
             this.Text = "ReaderForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Reader_FormClosed);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

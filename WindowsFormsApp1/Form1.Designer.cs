@@ -46,7 +46,7 @@
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(14, 3, 0, 3);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip1.Size = new System.Drawing.Size(648, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(484, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,14 +62,14 @@
             // StripMenuFormConverter
             // 
             this.StripMenuFormConverter.Name = "StripMenuFormConverter";
-            this.StripMenuFormConverter.Size = new System.Drawing.Size(180, 22);
+            this.StripMenuFormConverter.Size = new System.Drawing.Size(132, 22);
             this.StripMenuFormConverter.Text = "Конвертер";
             this.StripMenuFormConverter.Click += new System.EventHandler(this.StripMenuFormConverter_Click);
             // 
             // StripMenuFormFileReader
             // 
             this.StripMenuFormFileReader.Name = "StripMenuFormFileReader";
-            this.StripMenuFormFileReader.Size = new System.Drawing.Size(180, 22);
+            this.StripMenuFormFileReader.Size = new System.Drawing.Size(132, 22);
             this.StripMenuFormFileReader.Text = "Ридер";
             this.StripMenuFormFileReader.Click += new System.EventHandler(this.StripMenuFormFileReader_Click);
             // 
@@ -85,13 +85,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Menu;
-            this.ClientSize = new System.Drawing.Size(648, 482);
+            this.ClientSize = new System.Drawing.Size(484, 461);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

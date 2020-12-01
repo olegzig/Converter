@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Help : Form
+    public partial class Help : Form//Кароче, суть формы в том, чтобы отображать то
     {
         public Help()
         {

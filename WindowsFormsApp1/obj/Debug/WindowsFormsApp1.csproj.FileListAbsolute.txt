@@ -10,3 +10,4 @@ C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\boris\Desktop\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Converter.resources
 C:\Users\boris\Desktop\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Help.resources
+C:\Users\boris\Desktop\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Reader.resources

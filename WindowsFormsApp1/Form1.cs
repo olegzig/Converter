@@ -40,5 +40,10 @@ namespace WindowsFormsApp1
             this.Hide();
             ReaderForm.ShowDialog();
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)//а зачем? а Хер знает, не рабоает без этого
+        {
+            Application.Exit();
+        }
     }
 }

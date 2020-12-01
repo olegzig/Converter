@@ -17,9 +17,10 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void ConverterForm_Leave(object sender, EventArgs e)
+        private void Converter_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            Form1 f = new Form1();
+            f.Show();
         }
     }
 }
