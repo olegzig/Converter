@@ -95,5 +95,11 @@
   <ItemGroup>
     <None Include="70951d26b8d7b61e.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baby-licking-window-glass.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Myla_Singing.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

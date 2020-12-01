@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.StripMenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.конвертерToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -37,18 +36,18 @@
             this.ридерToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReaderPhysics = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReaderChemistry = new System.Windows.Forms.ToolStripMenuItem();
-            this.DefaultImage = new System.Windows.Forms.PictureBox();
             this.PhysicConverterPanel = new System.Windows.Forms.Panel();
             this.ChemistryConverterPanel = new System.Windows.Forms.Panel();
             this.PhysicReaderPanel = new System.Windows.Forms.Panel();
             this.ChemistryReaderPanel = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.DefaultImage = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).BeginInit();
             this.PhysicConverterPanel.SuspendLayout();
             this.ChemistryConverterPanel.SuspendLayout();
             this.PhysicReaderPanel.SuspendLayout();
             this.ChemistryReaderPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -84,14 +83,14 @@
             // MenuConverterPhysics
             // 
             this.MenuConverterPhysics.Name = "MenuConverterPhysics";
-            this.MenuConverterPhysics.Size = new System.Drawing.Size(180, 22);
+            this.MenuConverterPhysics.Size = new System.Drawing.Size(114, 22);
             this.MenuConverterPhysics.Text = "Физика";
             this.MenuConverterPhysics.Click += new System.EventHandler(this.MenuConverterPhysics_Click);
             // 
             // MenuConverterChemistry
             // 
             this.MenuConverterChemistry.Name = "MenuConverterChemistry";
-            this.MenuConverterChemistry.Size = new System.Drawing.Size(180, 22);
+            this.MenuConverterChemistry.Size = new System.Drawing.Size(114, 22);
             this.MenuConverterChemistry.Text = "Химия";
             this.MenuConverterChemistry.Click += new System.EventHandler(this.MenuConverterChemistry_Click);
             // 
@@ -107,26 +106,16 @@
             // MenuReaderPhysics
             // 
             this.MenuReaderPhysics.Name = "MenuReaderPhysics";
-            this.MenuReaderPhysics.Size = new System.Drawing.Size(180, 22);
+            this.MenuReaderPhysics.Size = new System.Drawing.Size(114, 22);
             this.MenuReaderPhysics.Text = "Физика";
             this.MenuReaderPhysics.Click += new System.EventHandler(this.MenuReaderPhysics_Click);
             // 
             // MenuReaderChemistry
             // 
             this.MenuReaderChemistry.Name = "MenuReaderChemistry";
-            this.MenuReaderChemistry.Size = new System.Drawing.Size(180, 22);
+            this.MenuReaderChemistry.Size = new System.Drawing.Size(114, 22);
             this.MenuReaderChemistry.Text = "Химия";
             this.MenuReaderChemistry.Click += new System.EventHandler(this.MenuReaderChemistry_Click);
-            // 
-            // DefaultImage
-            // 
-            this.DefaultImage.Image = ((System.Drawing.Image)(resources.GetObject("DefaultImage.Image")));
-            this.DefaultImage.Location = new System.Drawing.Point(0, 28);
-            this.DefaultImage.Name = "DefaultImage";
-            this.DefaultImage.Size = new System.Drawing.Size(731, 454);
-            this.DefaultImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.DefaultImage.TabIndex = 1;
-            this.DefaultImage.TabStop = false;
             // 
             // PhysicConverterPanel
             // 
@@ -172,6 +161,16 @@
             this.panel1.TabIndex = 6;
             this.panel1.Visible = false;
             // 
+            // DefaultImage
+            // 
+            this.DefaultImage.Image = global::WindowsFormsApp1.Properties.Resources.Myla_Singing;
+            this.DefaultImage.Location = new System.Drawing.Point(0, 28);
+            this.DefaultImage.Name = "DefaultImage";
+            this.DefaultImage.Size = new System.Drawing.Size(731, 454);
+            this.DefaultImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.DefaultImage.TabIndex = 1;
+            this.DefaultImage.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
@@ -188,11 +187,11 @@
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).EndInit();
             this.PhysicConverterPanel.ResumeLayout(false);
             this.ChemistryConverterPanel.ResumeLayout(false);
             this.PhysicReaderPanel.ResumeLayout(false);
             this.ChemistryReaderPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
