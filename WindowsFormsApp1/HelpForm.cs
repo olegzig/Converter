@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
         {
             try
             {
-                richTextBox1.LoadFile("about.rtf");
+                richTextBox1.LoadFile("../.././about.rtf");
             }
             catch (FileNotFoundException ) {
                 DialogResult = MessageBox.Show("Файл не найден","Ошибка" ,MessageBoxButtons.OK, MessageBoxIcon.Error,MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
