@@ -49,7 +49,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(280, 20);
+            this.label1.Location = new System.Drawing.Point(135, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(219, 17);
             this.label1.TabIndex = 1;
@@ -57,16 +57,17 @@
             // 
             // button_Distance
             // 
-            this.button_Distance.Location = new System.Drawing.Point(325, 72);
+            this.button_Distance.Location = new System.Drawing.Point(296, 72);
             this.button_Distance.Name = "button_Distance";
             this.button_Distance.Size = new System.Drawing.Size(124, 23);
             this.button_Distance.TabIndex = 2;
             this.button_Distance.Text = "Расстояние";
             this.button_Distance.UseVisualStyleBackColor = true;
+            this.button_Distance.Click += new System.EventHandler(this.button_Distance_Click);
             // 
             // button_Speed
             // 
-            this.button_Speed.Location = new System.Drawing.Point(585, 71);
+            this.button_Speed.Location = new System.Drawing.Point(82, 163);
             this.button_Speed.Name = "button_Speed";
             this.button_Speed.Size = new System.Drawing.Size(88, 23);
             this.button_Speed.TabIndex = 3;
@@ -84,7 +85,7 @@
             // 
             // button_Power
             // 
-            this.button_Power.Location = new System.Drawing.Point(598, 116);
+            this.button_Power.Location = new System.Drawing.Point(345, 163);
             this.button_Power.Name = "button_Power";
             this.button_Power.Size = new System.Drawing.Size(75, 23);
             this.button_Power.TabIndex = 5;

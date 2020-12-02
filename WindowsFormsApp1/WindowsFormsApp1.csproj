@@ -52,6 +52,12 @@
     <Compile Include="ConverterFormChemistry.Designer.cs">
       <DependentUpon>ConverterFormChemistry.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConverterForm_Phusics_Distance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Phusics_Distance.Designer.cs">
+      <DependentUpon>ConverterForm_Phusics_Distance.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConverterForm_Physics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="ConverterFormChemistry.resx">
       <DependentUpon>ConverterFormChemistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Phusics_Distance.resx">
+      <DependentUpon>ConverterForm_Phusics_Distance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Physics.resx">
       <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
