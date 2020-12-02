@@ -106,10 +106,11 @@
             // 
             // DefaultImage
             // 
+            this.DefaultImage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DefaultImage.Image = global::WindowsFormsApp1.Properties.Resources.qSRqh_bJOak;
-            this.DefaultImage.Location = new System.Drawing.Point(0, 28);
+            this.DefaultImage.Location = new System.Drawing.Point(0, 30);
             this.DefaultImage.Name = "DefaultImage";
-            this.DefaultImage.Size = new System.Drawing.Size(731, 454);
+            this.DefaultImage.Size = new System.Drawing.Size(731, 452);
             this.DefaultImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DefaultImage.TabIndex = 1;
             this.DefaultImage.TabStop = false;
@@ -123,6 +124,7 @@
             this.Controls.Add(this.DefaultImage);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
