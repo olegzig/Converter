@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.RadioButtonPhysic = new System.Windows.Forms.RadioButton();
-            this.RadioButtonChemistry = new System.Windows.Forms.RadioButton();
             this.OpenButtonRFPhysics = new System.Windows.Forms.Button();
             this.SaveButtonRFPhysics = new System.Windows.Forms.Button();
+            this.RadioButtonChemistry = new System.Windows.Forms.RadioButton();
+            this.RadioButtonPhysic = new System.Windows.Forms.RadioButton();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -48,28 +48,6 @@
             this.groupBox1.Size = new System.Drawing.Size(192, 128);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // RadioButtonPhysic
-            // 
-            this.RadioButtonPhysic.AutoSize = true;
-            this.RadioButtonPhysic.Location = new System.Drawing.Point(7, 22);
-            this.RadioButtonPhysic.Name = "RadioButtonPhysic";
-            this.RadioButtonPhysic.Size = new System.Drawing.Size(80, 21);
-            this.RadioButtonPhysic.TabIndex = 0;
-            this.RadioButtonPhysic.TabStop = true;
-            this.RadioButtonPhysic.Text = "Физика";
-            this.RadioButtonPhysic.UseVisualStyleBackColor = true;
-            // 
-            // RadioButtonChemistry
-            // 
-            this.RadioButtonChemistry.AutoSize = true;
-            this.RadioButtonChemistry.Location = new System.Drawing.Point(6, 49);
-            this.RadioButtonChemistry.Name = "RadioButtonChemistry";
-            this.RadioButtonChemistry.Size = new System.Drawing.Size(71, 21);
-            this.RadioButtonChemistry.TabIndex = 1;
-            this.RadioButtonChemistry.TabStop = true;
-            this.RadioButtonChemistry.Text = "Химия";
-            this.RadioButtonChemistry.UseVisualStyleBackColor = true;
             // 
             // OpenButtonRFPhysics
             // 
@@ -88,6 +66,30 @@
             this.SaveButtonRFPhysics.TabIndex = 2;
             this.SaveButtonRFPhysics.Text = "Сохранить";
             this.SaveButtonRFPhysics.UseVisualStyleBackColor = true;
+            // 
+            // RadioButtonChemistry
+            // 
+            this.RadioButtonChemistry.AutoSize = true;
+            this.RadioButtonChemistry.Location = new System.Drawing.Point(6, 49);
+            this.RadioButtonChemistry.Name = "RadioButtonChemistry";
+            this.RadioButtonChemistry.Size = new System.Drawing.Size(71, 21);
+            this.RadioButtonChemistry.TabIndex = 1;
+            this.RadioButtonChemistry.TabStop = true;
+            this.RadioButtonChemistry.Text = "Химия";
+            this.RadioButtonChemistry.UseVisualStyleBackColor = true;
+            this.RadioButtonChemistry.CheckedChanged += new System.EventHandler(this.RadioButtonChemistry_CheckedChanged);
+            // 
+            // RadioButtonPhysic
+            // 
+            this.RadioButtonPhysic.AutoSize = true;
+            this.RadioButtonPhysic.Location = new System.Drawing.Point(7, 22);
+            this.RadioButtonPhysic.Name = "RadioButtonPhysic";
+            this.RadioButtonPhysic.Size = new System.Drawing.Size(80, 21);
+            this.RadioButtonPhysic.TabIndex = 0;
+            this.RadioButtonPhysic.TabStop = true;
+            this.RadioButtonPhysic.Text = "Физика";
+            this.RadioButtonPhysic.UseVisualStyleBackColor = true;
+            this.RadioButtonPhysic.CheckedChanged += new System.EventHandler(this.RadioButtonPhysic_CheckedChanged);
             // 
             // richTextBox1
             // 
