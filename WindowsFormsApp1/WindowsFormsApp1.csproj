@@ -84,6 +84,12 @@
     <Compile Include="ReaderFormPhysics.Designer.cs">
       <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ConverterFormChemistry.resx">
+      <DependentUpon>ConverterFormChemistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics.resx">
+      <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +100,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReaderFormChemistry.resx">
+      <DependentUpon>ReaderFormChemistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReaderFormPhysics.resx">
+      <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
