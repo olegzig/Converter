@@ -67,14 +67,16 @@
             // MenuConverterPhysics
             // 
             this.MenuConverterPhysics.Name = "MenuConverterPhysics";
-            this.MenuConverterPhysics.Size = new System.Drawing.Size(143, 26);
+            this.MenuConverterPhysics.Size = new System.Drawing.Size(224, 26);
             this.MenuConverterPhysics.Text = "Физика";
+            this.MenuConverterPhysics.Click += new System.EventHandler(this.MenuConverterPhysics_Click);
             // 
             // MenuConverterChemistry
             // 
             this.MenuConverterChemistry.Name = "MenuConverterChemistry";
-            this.MenuConverterChemistry.Size = new System.Drawing.Size(143, 26);
+            this.MenuConverterChemistry.Size = new System.Drawing.Size(224, 26);
             this.MenuConverterChemistry.Text = "Химия";
+            this.MenuConverterChemistry.Click += new System.EventHandler(this.MenuConverterChemistry_Click);
             // 
             // ридерToolStripMenuItem
             // 
@@ -88,14 +90,16 @@
             // MenuReaderPhysics
             // 
             this.MenuReaderPhysics.Name = "MenuReaderPhysics";
-            this.MenuReaderPhysics.Size = new System.Drawing.Size(143, 26);
+            this.MenuReaderPhysics.Size = new System.Drawing.Size(224, 26);
             this.MenuReaderPhysics.Text = "Физика";
+            this.MenuReaderPhysics.Click += new System.EventHandler(this.MenuReaderPhysics_Click);
             // 
             // MenuReaderChemistry
             // 
             this.MenuReaderChemistry.Name = "MenuReaderChemistry";
-            this.MenuReaderChemistry.Size = new System.Drawing.Size(143, 26);
+            this.MenuReaderChemistry.Size = new System.Drawing.Size(224, 26);
             this.MenuReaderChemistry.Text = "Химия";
+            this.MenuReaderChemistry.Click += new System.EventHandler(this.MenuReaderChemistry_Click);
             // 
             // StripMenuHelp
             // 
@@ -106,11 +110,10 @@
             // 
             // DefaultImage
             // 
-            this.DefaultImage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DefaultImage.Image = global::WindowsFormsApp1.Properties.Resources.qSRqh_bJOak;
-            this.DefaultImage.Location = new System.Drawing.Point(0, 30);
+            this.DefaultImage.Location = new System.Drawing.Point(0, 28);
             this.DefaultImage.Name = "DefaultImage";
-            this.DefaultImage.Size = new System.Drawing.Size(731, 452);
+            this.DefaultImage.Size = new System.Drawing.Size(731, 454);
             this.DefaultImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DefaultImage.TabIndex = 1;
             this.DefaultImage.TabStop = false;

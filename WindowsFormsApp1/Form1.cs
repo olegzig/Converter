@@ -9,11 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 //DefaultImage - картинка которая ебашится на старте
 
-//PhysicConverterPanel - панель, на которой происходит выбор хуйни для фищики
-//ChemistryConverterPanel - панель, на которой происходит выбор хуйни для фищики
-
-//PhysicReaderPanel - панель, на которой происходит выбор хуйни для фищики
-//ChemistryReaderPanel - панель, на которой происходит выбор хуйни для фищики
+//ConverterForm_Physics.cs - форма для конвертера физики (я не буду писать мне елнь. Они все подобно называются)
 
 
 namespace WindowsFormsApp1
@@ -30,21 +26,41 @@ namespace WindowsFormsApp1
         private void MenuConverterPhysics_Click(object sender, EventArgs e)
         {
             DefaultImage.Visible = false;
+
+            ConverterForm_Physics CFPhysics = new ConverterForm_Physics();
+            CFPhysics.MdiParent = this;
+
+            CFPhysics.Show();
         }
 
         private void MenuConverterChemistry_Click(object sender, EventArgs e)
         {
             DefaultImage.Visible = false;
+
+            ConverterFormChemistry CFChemistry = new ConverterFormChemistry();
+            CFChemistry.MdiParent = this;
+
+            CFChemistry.Show();
         }
 
         private void MenuReaderPhysics_Click(object sender, EventArgs e)
         {
             DefaultImage.Visible = false;
+
+            ReaderFormPhysics RFPhysics = new ReaderFormPhysics();
+            RFPhysics.MdiParent = this;
+
+            RFPhysics.Show();
         }
 
         private void MenuReaderChemistry_Click(object sender, EventArgs e)
         {
             DefaultImage.Visible = false;
+
+            ReaderFormChemistry RFCemistry = new ReaderFormChemistry();
+            RFCemistry.MdiParent = this;
+
+            RFCemistry.Show();
         }
 
         private void StripMenuHelp_Click(object sender, EventArgs e)
