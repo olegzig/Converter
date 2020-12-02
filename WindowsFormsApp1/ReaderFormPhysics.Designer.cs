@@ -30,7 +30,6 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.OpenButtonRFPhysics = new System.Windows.Forms.Button();
-            this.SaveButtonRFPhysics = new System.Windows.Forms.Button();
             this.RadioButtonChemistry = new System.Windows.Forms.RadioButton();
             this.RadioButtonPhysic = new System.Windows.Forms.RadioButton();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -40,7 +39,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.OpenButtonRFPhysics);
-            this.groupBox1.Controls.Add(this.SaveButtonRFPhysics);
             this.groupBox1.Controls.Add(this.RadioButtonChemistry);
             this.groupBox1.Controls.Add(this.RadioButtonPhysic);
             this.groupBox1.Location = new System.Drawing.Point(6, -1);
@@ -53,19 +51,11 @@
             // 
             this.OpenButtonRFPhysics.Location = new System.Drawing.Point(6, 94);
             this.OpenButtonRFPhysics.Name = "OpenButtonRFPhysics";
-            this.OpenButtonRFPhysics.Size = new System.Drawing.Size(71, 28);
+            this.OpenButtonRFPhysics.Size = new System.Drawing.Size(180, 28);
             this.OpenButtonRFPhysics.TabIndex = 1;
             this.OpenButtonRFPhysics.Text = "Открыть";
             this.OpenButtonRFPhysics.UseVisualStyleBackColor = true;
-            // 
-            // SaveButtonRFPhysics
-            // 
-            this.SaveButtonRFPhysics.Location = new System.Drawing.Point(83, 95);
-            this.SaveButtonRFPhysics.Name = "SaveButtonRFPhysics";
-            this.SaveButtonRFPhysics.Size = new System.Drawing.Size(103, 27);
-            this.SaveButtonRFPhysics.TabIndex = 2;
-            this.SaveButtonRFPhysics.Text = "Сохранить";
-            this.SaveButtonRFPhysics.UseVisualStyleBackColor = true;
+            this.OpenButtonRFPhysics.Click += new System.EventHandler(this.OpenButtonRFPhysics_Click);
             // 
             // RadioButtonChemistry
             // 
@@ -122,7 +112,6 @@
         private System.Windows.Forms.RadioButton RadioButtonChemistry;
         private System.Windows.Forms.RadioButton RadioButtonPhysic;
         private System.Windows.Forms.Button OpenButtonRFPhysics;
-        private System.Windows.Forms.Button SaveButtonRFPhysics;
         private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
