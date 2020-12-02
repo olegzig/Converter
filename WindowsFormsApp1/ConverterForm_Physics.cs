@@ -16,5 +16,12 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void ConverterForm_Physics_Load(object sender, EventArgs e)
+        {
+            
+
+
+        }
     }
 }
