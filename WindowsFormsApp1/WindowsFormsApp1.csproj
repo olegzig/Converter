@@ -121,6 +121,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Speed.rtf" />
+    <None Include="Resources\Time.rtf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -132,12 +134,21 @@
     <None Include="70951d26b8d7b61e.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Acceleration.rtf" />
     <None Include="Resources\baby-licking-window-glass.gif" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Curve.rtf" />
+    <None Include="Resources\Energy.rtf" />
+    <None Include="Resources\Force.rtf" />
+    <None Include="Resources\Frequency.rtf" />
+    <None Include="Resources\Length.rtf" />
+    <None Include="Resources\Mass.rtf" />
     <None Include="Resources\Myla_Singing.gif" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Power.rtf" />
+    <None Include="Resources\Pressure.rtf" />
     <None Include="Resources\qSRqh-bJOak.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
