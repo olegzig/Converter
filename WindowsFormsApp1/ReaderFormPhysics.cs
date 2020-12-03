@@ -16,7 +16,8 @@ namespace WindowsFormsApp1
         {
             try
             {
-                richTextBox1.LoadFile("../../Resources/Physic.rtf");
+                //richTextBox1.LoadFile(openFileDialog1.FileName, RichTextBoxStreamType.RichText);
+                richTextBox1.LoadFile("../../Resources/Physic.rtf", RichTextBoxStreamType.RichText);
             }
             catch (FileNotFoundException ex)
             {
