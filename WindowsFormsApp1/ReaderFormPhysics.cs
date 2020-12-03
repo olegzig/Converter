@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -19,7 +20,7 @@ namespace WindowsFormsApp1
             }
             catch (FileNotFoundException ex)
             {
-                MessageBox.Show("Ошибка", "Ошибка",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Ошибка",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

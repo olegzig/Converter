@@ -3,8 +3,6 @@ using System.Windows.Forms;
 //DefaultImage - картинка которая ебашится на старте
 
 //ConverterForm_Physics.cs - форма для конвертера физики (я не буду писать мне елнь. Они все подобно называются)
-
-
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
