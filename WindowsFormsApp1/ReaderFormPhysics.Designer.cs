@@ -53,7 +53,7 @@
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -84,7 +84,7 @@
             // 
             this.radioButtonPhysicPressure.AutoSize = true;
             this.radioButtonPhysicPressure.Location = new System.Drawing.Point(2, 222);
-            this.radioButtonPhysicPressure.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicPressure.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicPressure.Name = "radioButtonPhysicPressure";
             this.radioButtonPhysicPressure.Size = new System.Drawing.Size(76, 17);
             this.radioButtonPhysicPressure.TabIndex = 17;
@@ -97,7 +97,7 @@
             // 
             this.radioButtonPhysicPower.AutoSize = true;
             this.radioButtonPhysicPower.Location = new System.Drawing.Point(2, 200);
-            this.radioButtonPhysicPower.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicPower.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicPower.Name = "radioButtonPhysicPower";
             this.radioButtonPhysicPower.Size = new System.Drawing.Size(78, 17);
             this.radioButtonPhysicPower.TabIndex = 16;
@@ -110,7 +110,7 @@
             // 
             this.radioButtonPhysicForce.AutoSize = true;
             this.radioButtonPhysicForce.Location = new System.Drawing.Point(2, 156);
-            this.radioButtonPhysicForce.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicForce.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicForce.Name = "radioButtonPhysicForce";
             this.radioButtonPhysicForce.Size = new System.Drawing.Size(50, 17);
             this.radioButtonPhysicForce.TabIndex = 15;
@@ -123,7 +123,7 @@
             // 
             this.radioButtonPhysicEnergy.AutoSize = true;
             this.radioButtonPhysicEnergy.Location = new System.Drawing.Point(2, 178);
-            this.radioButtonPhysicEnergy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicEnergy.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicEnergy.Name = "radioButtonPhysicEnergy";
             this.radioButtonPhysicEnergy.Size = new System.Drawing.Size(67, 17);
             this.radioButtonPhysicEnergy.TabIndex = 14;
@@ -136,7 +136,7 @@
             // 
             this.radioButtonPhysicMass.AutoSize = true;
             this.radioButtonPhysicMass.Location = new System.Drawing.Point(2, 134);
-            this.radioButtonPhysicMass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicMass.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicMass.Name = "radioButtonPhysicMass";
             this.radioButtonPhysicMass.Size = new System.Drawing.Size(58, 17);
             this.radioButtonPhysicMass.TabIndex = 13;
@@ -149,7 +149,7 @@
             // 
             this.radioButtonPhysicFrequency.AutoSize = true;
             this.radioButtonPhysicFrequency.Location = new System.Drawing.Point(2, 112);
-            this.radioButtonPhysicFrequency.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicFrequency.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicFrequency.Name = "radioButtonPhysicFrequency";
             this.radioButtonPhysicFrequency.Size = new System.Drawing.Size(67, 17);
             this.radioButtonPhysicFrequency.TabIndex = 12;
@@ -162,7 +162,7 @@
             // 
             this.radioButtonPhysicCurve.AutoSize = true;
             this.radioButtonPhysicCurve.Location = new System.Drawing.Point(2, 90);
-            this.radioButtonPhysicCurve.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicCurve.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicCurve.Name = "radioButtonPhysicCurve";
             this.radioButtonPhysicCurve.Size = new System.Drawing.Size(93, 17);
             this.radioButtonPhysicCurve.TabIndex = 11;
@@ -175,7 +175,7 @@
             // 
             this.radioButtonPhysicSpeed.AutoSize = true;
             this.radioButtonPhysicSpeed.Location = new System.Drawing.Point(2, 46);
-            this.radioButtonPhysicSpeed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicSpeed.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicSpeed.Name = "radioButtonPhysicSpeed";
             this.radioButtonPhysicSpeed.Size = new System.Drawing.Size(73, 17);
             this.radioButtonPhysicSpeed.TabIndex = 10;
@@ -188,7 +188,7 @@
             // 
             this.radioButtonPhysicAcceleration.AutoSize = true;
             this.radioButtonPhysicAcceleration.Location = new System.Drawing.Point(2, 68);
-            this.radioButtonPhysicAcceleration.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicAcceleration.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicAcceleration.Name = "radioButtonPhysicAcceleration";
             this.radioButtonPhysicAcceleration.Size = new System.Drawing.Size(81, 17);
             this.radioButtonPhysicAcceleration.TabIndex = 9;
@@ -200,7 +200,7 @@
             // OpenButtonRFPhysics
             // 
             this.OpenButtonRFPhysics.Location = new System.Drawing.Point(6, 244);
-            this.OpenButtonRFPhysics.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.OpenButtonRFPhysics.Margin = new System.Windows.Forms.Padding(2);
             this.OpenButtonRFPhysics.Name = "OpenButtonRFPhysics";
             this.OpenButtonRFPhysics.Size = new System.Drawing.Size(82, 23);
             this.OpenButtonRFPhysics.TabIndex = 7;
@@ -212,7 +212,7 @@
             // 
             this.radioButtonPhysicTime.AutoSize = true;
             this.radioButtonPhysicTime.Location = new System.Drawing.Point(2, 24);
-            this.radioButtonPhysicTime.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicTime.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicTime.Name = "radioButtonPhysicTime";
             this.radioButtonPhysicTime.Size = new System.Drawing.Size(58, 17);
             this.radioButtonPhysicTime.TabIndex = 8;
@@ -225,12 +225,12 @@
             // 
             this.radioButtonPhysicRange.AutoSize = true;
             this.radioButtonPhysicRange.Location = new System.Drawing.Point(2, 2);
-            this.radioButtonPhysicRange.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButtonPhysicRange.Margin = new System.Windows.Forms.Padding(2);
             this.radioButtonPhysicRange.Name = "radioButtonPhysicRange";
-            this.radioButtonPhysicRange.Size = new System.Drawing.Size(64, 17);
+            this.radioButtonPhysicRange.Size = new System.Drawing.Size(58, 17);
             this.radioButtonPhysicRange.TabIndex = 6;
             this.radioButtonPhysicRange.TabStop = true;
-            this.radioButtonPhysicRange.Text = "Длинна";
+            this.radioButtonPhysicRange.Text = "Длина";
             this.radioButtonPhysicRange.UseVisualStyleBackColor = true;
             this.radioButtonPhysicRange.CheckedChanged += new System.EventHandler(this.radioButtonPhysicPressure_CheckedChanged);
             // 
@@ -240,7 +240,7 @@
             this.richTextBox1.AutoWordSelection = true;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
             this.richTextBox1.ShowSelectionMargin = true;
@@ -256,7 +256,7 @@
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.ControlBox = false;
             this.Controls.Add(this.splitContainer1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ReaderFormPhysics";
             this.Text = "ReaderFormPhysics";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
