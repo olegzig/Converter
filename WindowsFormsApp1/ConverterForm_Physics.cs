@@ -17,11 +17,10 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void ConverterForm_Physics_Load(object sender, EventArgs e)
+        private void button_Distance_Click(object sender, EventArgs e)
         {
-            
-
-
+            ConverterForm_Physics_Distance CFPDistance = new ConverterForm_Physics_Distance();
+            CFPDistance.Show();
         }
     }
 }
