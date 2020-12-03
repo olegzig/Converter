@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -40,7 +39,7 @@ namespace WindowsFormsApp1
         private void radioButtonPhysicPressure_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton radio = (RadioButton)sender;
-            richTextBox1.RightMargin = splitContainer1.Panel2.Width-300;//ай костыль ты мой костыль
+            richTextBox1.RightMargin = 500;//ай костыль ты мой костыль
             switch (radio.Text)
             {
                 case "Скорость":
@@ -154,7 +153,6 @@ namespace WindowsFormsApp1
                     }
                     break;
             }
-            
         }
 
         private void richTextBox1_SizeChanged(object sender, EventArgs e)//продолжение костыля

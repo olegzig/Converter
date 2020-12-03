@@ -246,7 +246,7 @@
             this.richTextBox1.ShowSelectionMargin = true;
             this.richTextBox1.Size = new System.Drawing.Size(500, 362);
             this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "halp";
+            this.richTextBox1.Text = "";
             this.richTextBox1.SizeChanged += new System.EventHandler(this.richTextBox1_SizeChanged);
             // 
             // ReaderFormPhysics

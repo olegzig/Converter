@@ -47,7 +47,7 @@ namespace WindowsFormsApp1
         {
             DefaultImage.Visible = false;
 
-            ReaderFormChemistry RFCemistry = new ReaderFormChemistry();
+            ReaderFormInformaic RFCemistry = new ReaderFormInformaic();
             RFCemistry.MdiParent = this;
 
             RFCemistry.Show();
