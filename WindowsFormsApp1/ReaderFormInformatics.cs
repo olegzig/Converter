@@ -13,7 +13,6 @@ namespace WindowsFormsApp1
 {
     public partial class ReaderFormInformaic : Form
     {
-        int randomNumber = 290;
         public ReaderFormInformaic()
         {
             InitializeComponent();
@@ -47,7 +46,6 @@ namespace WindowsFormsApp1
         private void RadioButtonChemistry_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton radio = (RadioButton)sender;
-            richTextBox1.RightMargin = splitContainer1.Panel2.ClientSize.Width - randomNumber;//рандомно подобраное значение
             switch (radio.Text)
             {
                 case "Системы счисления":
@@ -71,15 +69,6 @@ namespace WindowsFormsApp1
                     }
                     break;
             }
-        }
-        private void richTextBox1_SizeChanged(object sender, EventArgs e)
-        {
-            richTextBox1.RightMargin = splitContainer1.Panel2.ClientSize.Width-randomNumber;//рандомно подобраное значение
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            richTextBox1.RightMargin = splitContainer1.Panel2.ClientSize.Width - randomNumber;//рандомно подобраное значение
         }
     }
 }

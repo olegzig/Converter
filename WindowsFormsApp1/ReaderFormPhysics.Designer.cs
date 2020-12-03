@@ -75,8 +75,8 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.richTextBox1);
             this.splitContainer1.Panel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.splitContainer1.Size = new System.Drawing.Size(600, 366);
-            this.splitContainer1.SplitterDistance = 93;
+            this.splitContainer1.Size = new System.Drawing.Size(436, 268);
+            this.splitContainer1.SplitterDistance = 99;
             this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -199,7 +199,7 @@
             // 
             // OpenButtonRFPhysics
             // 
-            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(6, 244);
+            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(9, 239);
             this.OpenButtonRFPhysics.Margin = new System.Windows.Forms.Padding(2);
             this.OpenButtonRFPhysics.Name = "OpenButtonRFPhysics";
             this.OpenButtonRFPhysics.Size = new System.Drawing.Size(82, 23);
@@ -236,24 +236,18 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.AcceptsTab = true;
-            this.richTextBox1.AutoWordSelection = true;
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedVertical;
-            this.richTextBox1.ShowSelectionMargin = true;
-            this.richTextBox1.Size = new System.Drawing.Size(500, 362);
-            this.richTextBox1.TabIndex = 6;
+            this.richTextBox1.Size = new System.Drawing.Size(330, 264);
+            this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
-            this.richTextBox1.SizeChanged += new System.EventHandler(this.richTextBox1_SizeChanged);
             // 
             // ReaderFormPhysics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(436, 268);
             this.ControlBox = false;
             this.Controls.Add(this.splitContainer1);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -275,7 +269,6 @@
         private System.Windows.Forms.Button OpenButtonRFPhysics;
         private System.Windows.Forms.RadioButton radioButtonPhysicTime;
         private System.Windows.Forms.RadioButton radioButtonPhysicRange;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RadioButton radioButtonPhysicPressure;
         private System.Windows.Forms.RadioButton radioButtonPhysicPower;
         private System.Windows.Forms.RadioButton radioButtonPhysicForce;
@@ -285,5 +278,6 @@
         private System.Windows.Forms.RadioButton radioButtonPhysicCurve;
         private System.Windows.Forms.RadioButton radioButtonPhysicSpeed;
         private System.Windows.Forms.RadioButton radioButtonPhysicAcceleration;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

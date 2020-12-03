@@ -49,10 +49,9 @@
             this.richTextBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.richTextBox1.ShowSelectionMargin = true;
-            this.richTextBox1.Size = new System.Drawing.Size(461, 362);
+            this.richTextBox1.Size = new System.Drawing.Size(297, 264);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
-            this.richTextBox1.SizeChanged += new System.EventHandler(this.richTextBox1_SizeChanged);
             // 
             // splitContainer1
             // 
@@ -72,14 +71,14 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.richTextBox1);
             this.splitContainer1.Panel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.splitContainer1.Size = new System.Drawing.Size(600, 366);
+            this.splitContainer1.Size = new System.Drawing.Size(436, 268);
             this.splitContainer1.SplitterDistance = 132;
             this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 1;
             // 
             // OpenButtonRFPhysics
             // 
-            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(23, 45);
+            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(20, 45);
             this.OpenButtonRFPhysics.Margin = new System.Windows.Forms.Padding(2);
             this.OpenButtonRFPhysics.Name = "OpenButtonRFPhysics";
             this.OpenButtonRFPhysics.Size = new System.Drawing.Size(85, 23);
@@ -117,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(436, 268);
             this.ControlBox = false;
             this.Controls.Add(this.splitContainer1);
             this.Margin = new System.Windows.Forms.Padding(2);

@@ -39,7 +39,6 @@ namespace WindowsFormsApp1
         private void radioButtonPhysicPressure_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton radio = (RadioButton)sender;
-            richTextBox1.RightMargin = 500;//ай костыль ты мой костыль
             switch (radio.Text)
             {
                 case "Скорость":
@@ -52,7 +51,7 @@ namespace WindowsFormsApp1
                         MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     break;
-                case "Длинна":
+                case "Длина":
                     try
                     {
                         richTextBox1.LoadFile("../../Resources/Length.rtf");
@@ -153,11 +152,6 @@ namespace WindowsFormsApp1
                     }
                     break;
             }
-        }
-
-        private void richTextBox1_SizeChanged(object sender, EventArgs e)//продолжение костыля
-        {
-            richTextBox1.RightMargin = 0;
         }
     }
 }
