@@ -50,7 +50,6 @@ namespace WindowsFormsApp1
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "нм",
             "мм",
             "см",
             "дюймы",
@@ -71,6 +70,7 @@ namespace WindowsFormsApp1
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 2;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // button1
             // 
@@ -80,6 +80,7 @@ namespace WindowsFormsApp1
             this.button1.TabIndex = 3;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -92,7 +93,6 @@ namespace WindowsFormsApp1
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "нм",
             "мм",
             "см",
             "дюймы",
