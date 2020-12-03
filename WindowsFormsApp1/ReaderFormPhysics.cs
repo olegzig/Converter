@@ -11,30 +11,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void RadioButtonPhysic_CheckedChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                richTextBox1.LoadFile("../../Resources/Physic.rtf");
-            }
-            catch (FileNotFoundException ex)
-            {
-                MessageBox.Show("Ошибка", "Ошибка",MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void RadioButtonChemistry_CheckedChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                richTextBox1.LoadFile("../../Resources/Chemistry.rtf");
-            }
-            catch (FileNotFoundException ex)
-            {
-                MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
         private void OpenButtonRFPhysics_Click(object sender, EventArgs e)
         {
             try
@@ -57,6 +33,124 @@ namespace WindowsFormsApp1
             catch (FileNotFoundException ex)
             {
                 MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void radioButtonPhysicPressure_CheckedChanged(object sender, EventArgs e)
+        {
+            RadioButton radio = (RadioButton)sender;
+            switch (radio.Text)
+            {
+                case "Скорость":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Speed.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Длина":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Length.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Время":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Time.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Ускорение":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Acceleration.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Искревление":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Curve.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Частота":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Frequency.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Масса":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Mass.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Сила":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Force.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Энергия":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Energy.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Мощность":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Power.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
+                case "Давление":
+                    try
+                    {
+                        richTextBox1.LoadFile("../../Resources/Pressure.rtf");
+                    }
+                    catch (FileNotFoundException ex)
+                    {
+                        MessageBox.Show(ex.Message, "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    break;
             }
         }
     }
