@@ -30,5 +30,12 @@ namespace WindowsFormsApp1
             CFPWeight.MdiParent = this.MdiParent;
             CFPWeight.Show();
         }
+
+        private void button_Temperature_Click(object sender, EventArgs e)
+        {
+            ConverterForm_Physics_Temperature CFPTemperature = new ConverterForm_Physics_Temperature();
+            CFPTemperature.MdiParent = this.MdiParent;
+            CFPTemperature.Show();
+        }
     }
 }

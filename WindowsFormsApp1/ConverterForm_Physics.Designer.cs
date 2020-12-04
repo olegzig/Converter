@@ -101,6 +101,7 @@
             this.button_Temperature.TabIndex = 6;
             this.button_Temperature.Text = "Температура";
             this.button_Temperature.UseVisualStyleBackColor = true;
+            this.button_Temperature.Click += new System.EventHandler(this.button_Temperature_Click);
             // 
             // ConverterForm_Physics
             // 
