@@ -112,6 +112,7 @@ namespace WindowsFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ControlBox = false;
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button1);
@@ -120,6 +121,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label1);
             this.Name = "ConverterForm_Physics_Distance";
             this.Text = "ConverterForm_Physics_Distance";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 
