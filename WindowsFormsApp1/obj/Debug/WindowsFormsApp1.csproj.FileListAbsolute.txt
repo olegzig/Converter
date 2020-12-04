@@ -24,3 +24,9 @@ C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Con
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterFormChemistry.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ReaderFormChemistry.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ReaderFormPhysics.resources
+C:\Users\USER\source\repos\olegzig\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterFormChemistry.resources
+C:\Users\USER\source\repos\olegzig\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics.resources
+C:\Users\USER\source\repos\olegzig\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ReaderFormChemistry.resources
+C:\Users\USER\source\repos\olegzig\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ReaderFormPhysics.resources
+C:\Users\USER\source\repos\olegzig\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Distance.resources
+C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Distance.resources
