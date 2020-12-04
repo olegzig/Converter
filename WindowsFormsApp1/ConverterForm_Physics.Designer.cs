@@ -83,6 +83,7 @@
             this.button_Frequency.TabIndex = 4;
             this.button_Frequency.Text = "Частота";
             this.button_Frequency.UseVisualStyleBackColor = true;
+            this.button_Frequency.Click += new System.EventHandler(this.button_Frequency_Click);
             // 
             // button_Power
             // 

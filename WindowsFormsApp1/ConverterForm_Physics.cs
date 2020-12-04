@@ -37,5 +37,12 @@ namespace WindowsFormsApp1
             CFPTemperature.MdiParent = this.MdiParent;
             CFPTemperature.Show();
         }
+
+        private void button_Frequency_Click(object sender, EventArgs e)
+        {
+            ConverterForm_Physics_Frequency CFPFrequency = new ConverterForm_Physics_Frequency();
+            CFPFrequency.MdiParent = this.MdiParent;
+            CFPFrequency.Show();
+        }
     }
 }

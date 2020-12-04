@@ -64,6 +64,12 @@
     <Compile Include="ConverterForm_Physics.Designer.cs">
       <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConverterForm_Physics_Frequency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Frequency.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Frequency.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConverterForm_Physics_Temperature.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Physics.resx">
       <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Frequency.resx">
+      <DependentUpon>ConverterForm_Physics_Frequency.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Physics_Temperature.resx">
       <DependentUpon>ConverterForm_Physics_Temperature.cs</DependentUpon>
