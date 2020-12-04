@@ -64,6 +64,12 @@
     <Compile Include="ConverterForm_Physics.Designer.cs">
       <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConverterForm_Physics_Weight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Weight.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Weight.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Physics.resx">
       <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Weight.resx">
+      <DependentUpon>ConverterForm_Physics_Weight.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

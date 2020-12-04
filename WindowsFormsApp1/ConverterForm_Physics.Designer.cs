@@ -45,6 +45,7 @@
             this.button_Weight.TabIndex = 0;
             this.button_Weight.Text = "Масса";
             this.button_Weight.UseVisualStyleBackColor = true;
+            this.button_Weight.Click += new System.EventHandler(this.button_Weight_Click);
             // 
             // label1
             // 

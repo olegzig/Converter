@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class ConverterForm_Physics_Distance : Form
+    public partial class ConverterForm_Physics_Weight : Form
     {
-        public ConverterForm_Physics_Distance()
+        public ConverterForm_Physics_Weight()
         {
             InitializeComponent();
         }
@@ -34,31 +34,25 @@ namespace WindowsFormsApp1
                     label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case 0:
-                    multiplier = 1;
+                    multiplier = 0.2;
                     break;
                 case 1:
-                    multiplier = 10;
+                    multiplier = 1;
                     break;
                 case 2:
-                    multiplier = 25.4;
+                    multiplier = 28.35;
                     break;
                 case 3:
-                    multiplier = 100;
+                    multiplier = 409.5;
                     break;
                 case 4:
-                    multiplier = 304.8;
-                    break;
-                case 5:
-                    multiplier = 914.4;
-                    break;
-                case 6:
                     multiplier = 1000;
                     break;
-                case 7:
-                    multiplier = 1000000;
+                case 5:
+                    multiplier = 10000;
                     break;
-                case 8:
-                    multiplier = 1609344;
+                case 6:
+                    multiplier = 100000;
                     break;
             }
             return multiplier;
@@ -71,7 +65,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text != "")
+            if (textBox1.Text != "")
             {
                 show_result();
             }
