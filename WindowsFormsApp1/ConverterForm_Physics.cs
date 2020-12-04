@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Numerics;
 
 namespace WindowsFormsApp1
 {
@@ -25,5 +24,11 @@ namespace WindowsFormsApp1
             CFPDistance.Show();
         }
 
+        private void button_Weight_Click(object sender, EventArgs e)
+        {
+            ConverterForm_Physics_Weight CFPWeight = new ConverterForm_Physics_Weight();
+            CFPWeight.MdiParent = this.MdiParent;
+            CFPWeight.Show();
+        }
     }
 }

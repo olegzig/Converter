@@ -124,12 +124,7 @@
   <data name="baby-licking-window-glass" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baby-licking-window-glass.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="70951d26b8d7b61e" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\70951d26b8d7b61e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="70951d26b8d7b61e1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\70951d26b8d7b61e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  
   <data name="qSRqh-bJOak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\qSRqh-bJOak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

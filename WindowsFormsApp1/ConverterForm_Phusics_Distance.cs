@@ -63,15 +63,27 @@ namespace WindowsFormsApp1
             }
             return multiplier;
         }
+        void show_result()//считает результат и выводит в бокс
+        {
+            textBox2.Text = Convert.ToString(Check_Znach(comboBox1) * double.Parse(textBox1.Text) / Check_Znach(comboBox2));
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             if(textBox1.Text != "")
             {
-                double result = 0;
-                result = Check_Znach(comboBox1)*double.Parse(textBox1.Text)/ Check_Znach(comboBox2);
-                textBox2.Text = Convert.ToString(result);
+                show_result();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)//меняет местами расчеты
+        {
+            int buf;
+            buf = comboBox1.SelectedIndex;
+            comboBox1.SelectedIndex = comboBox2.SelectedIndex;
+            comboBox2.SelectedIndex = buf;
+            show_result();
         }
     }
 }

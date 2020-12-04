@@ -1,26 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 //DefaultImage - картинка которая ебашится на старте
 
 //ConverterForm_Physics.cs - форма для конвертера физики (я не буду писать мне елнь. Они все подобно называются)
-
-
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        HelpForm help = new HelpForm();
         public Form1()
         {
             InitializeComponent();
-            
+
         }
 
         private void MenuConverterPhysics_Click(object sender, EventArgs e)
@@ -57,7 +47,7 @@ namespace WindowsFormsApp1
         {
             DefaultImage.Visible = false;
 
-            ReaderFormChemistry RFCemistry = new ReaderFormChemistry();
+            ReaderFormInformaic RFCemistry = new ReaderFormInformaic();
             RFCemistry.MdiParent = this;
 
             RFCemistry.Show();
@@ -65,6 +55,7 @@ namespace WindowsFormsApp1
 
         private void StripMenuHelp_Click(object sender, EventArgs e)
         {
+            HelpForm help = new HelpForm();
             help.Show();
         }
 
