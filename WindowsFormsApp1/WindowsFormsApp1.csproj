@@ -70,6 +70,12 @@
     <Compile Include="ConverterForm_Physics_Frequency.Designer.cs">
       <DependentUpon>ConverterForm_Physics_Frequency.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConverterForm_Physics_Speed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Speed.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Speed.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConverterForm_Physics_Temperature.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Physics_Frequency.resx">
       <DependentUpon>ConverterForm_Physics_Frequency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Speed.resx">
+      <DependentUpon>ConverterForm_Physics_Speed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Physics_Temperature.resx">
       <DependentUpon>ConverterForm_Physics_Temperature.cs</DependentUpon>

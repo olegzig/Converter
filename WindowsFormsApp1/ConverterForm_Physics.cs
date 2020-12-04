@@ -44,5 +44,12 @@ namespace WindowsFormsApp1
             CFPFrequency.MdiParent = this.MdiParent;
             CFPFrequency.Show();
         }
+
+        private void button_Speed_Click(object sender, EventArgs e)
+        {
+            ConverterForm_Physics_Speed CFPSpeed = new ConverterForm_Physics_Speed();
+            CFPSpeed.MdiParent = this.MdiParent;
+            CFPSpeed.Show();
+        }
     }
 }

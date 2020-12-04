@@ -74,6 +74,7 @@
             this.button_Speed.TabIndex = 3;
             this.button_Speed.Text = "Скорость";
             this.button_Speed.UseVisualStyleBackColor = true;
+            this.button_Speed.Click += new System.EventHandler(this.button_Speed_Click);
             // 
             // button_Frequency
             // 
