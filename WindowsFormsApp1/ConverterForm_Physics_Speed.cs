@@ -34,38 +34,35 @@ namespace WindowsFormsApp1
                     label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case 0:
-                    multiplier = 1;
+                    multiplier = 999.999999992;
                     break;
                 case 1:
-                    multiplier = 10;
+                    multiplier = 3599999.9999712;
                     break;
                 case 2:
-                    multiplier = 25.4;
+                    multiplier = 1;
                     break;
                 case 3:
-                    multiplier = 100;
+                    multiplier = 3599.9999999712;
                     break;
                 case 4:
-                    multiplier = 304.8;
+                    multiplier = 2236.9362920461044;
                     break;
                 case 5:
-                    multiplier = 914.4;
+                    multiplier = 1943.8444924404491;
                     break;
-                case 6:
-                    multiplier = 1000;
-                    break;
-                case 7:
-                    multiplier = 1000000;
-                    break;
-                case 8:
-                    multiplier = 1609344;
-                    break;
+//м / c
+//м / ч 
+//км / c
+//км / ч
+//миль / ч
+//узел
             }
             return multiplier;
         }
         void show_result()//считает результат и выводит в бокс
         {
-            textBox2.Text = Convert.ToString(Check_Znach(comboBox1) * double.Parse(textBox1.Text) / Check_Znach(comboBox2));
+            textBox2.Text = Convert.ToString(Check_Znach(comboBox2) * double.Parse(textBox1.Text) / Check_Znach(comboBox1));
         }
 
 

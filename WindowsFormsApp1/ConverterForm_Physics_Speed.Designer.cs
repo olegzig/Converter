@@ -52,15 +52,12 @@ namespace WindowsFormsApp1
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "мм",
-            "см",
-            "дюймы",
-            "дм",
-            "футт",
-            "ярд",
-            "метр",
-            "км",
-            "миля"});
+            "м/c",
+            "м/ч",
+            "км/c",
+            "км/ч",
+            "миль/ч",
+            "узел"});
             this.comboBox2.Location = new System.Drawing.Point(456, 152);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 24);
@@ -94,15 +91,12 @@ namespace WindowsFormsApp1
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "мм",
-            "см",
-            "дюймы",
-            "дм",
-            "футт",
-            "ярд",
-            "метр",
-            "км",
-            "миля"});
+            "м/c",
+            "м/ч",
+            "км/c",
+            "км/ч",
+            "миль/ч",
+            "узел"});
             this.comboBox1.Location = new System.Drawing.Point(9, 155);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
