@@ -65,5 +65,12 @@ namespace WindowsFormsApp1
             CFPVolume.MdiParent = this.MdiParent;
             CFPVolume.Show();
         }
+
+        private void button_Energy_Click(object sender, EventArgs e)
+        {
+            ConverterForm_Physics_Energy CFPEnergy = new ConverterForm_Physics_Energy();
+            CFPEnergy.MdiParent = this.MdiParent;
+            CFPEnergy.Show();
+        }
     }
 }

@@ -36,6 +36,8 @@
             this.button_Power = new System.Windows.Forms.Button();
             this.button_Temperature = new System.Windows.Forms.Button();
             this.button_Volume = new System.Windows.Forms.Button();
+            this.button_Energy = new System.Windows.Forms.Button();
+            this.button_Light = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_Weight
@@ -117,12 +119,33 @@
             this.button_Volume.UseVisualStyleBackColor = true;
             this.button_Volume.Click += new System.EventHandler(this.button_Volume_Click);
             // 
+            // button_Energy
+            // 
+            this.button_Energy.Location = new System.Drawing.Point(345, 202);
+            this.button_Energy.Name = "button_Energy";
+            this.button_Energy.Size = new System.Drawing.Size(75, 23);
+            this.button_Energy.TabIndex = 8;
+            this.button_Energy.Text = "Энергия";
+            this.button_Energy.UseVisualStyleBackColor = true;
+            this.button_Energy.Click += new System.EventHandler(this.button_Energy_Click);
+            // 
+            // button_Light
+            // 
+            this.button_Light.Location = new System.Drawing.Point(82, 241);
+            this.button_Light.Name = "button_Light";
+            this.button_Light.Size = new System.Drawing.Size(75, 23);
+            this.button_Light.TabIndex = 9;
+            this.button_Light.Text = "Свет";
+            this.button_Light.UseVisualStyleBackColor = true;
+            // 
             // ConverterForm_Physics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.button_Light);
+            this.Controls.Add(this.button_Energy);
             this.Controls.Add(this.button_Volume);
             this.Controls.Add(this.button_Temperature);
             this.Controls.Add(this.button_Power);
@@ -149,5 +172,7 @@
         private System.Windows.Forms.Button button_Power;
         private System.Windows.Forms.Button button_Temperature;
         private System.Windows.Forms.Button button_Volume;
+        private System.Windows.Forms.Button button_Energy;
+        private System.Windows.Forms.Button button_Light;
     }
 }
