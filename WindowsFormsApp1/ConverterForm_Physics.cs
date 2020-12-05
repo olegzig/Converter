@@ -51,5 +51,12 @@ namespace WindowsFormsApp1
             CFPSpeed.MdiParent = this.MdiParent;
             CFPSpeed.Show();
         }
+
+        private void button_Power_Click(object sender, EventArgs e)
+        {
+            ConverterForm_Physics_Power CFPPower = new ConverterForm_Physics_Power();
+            CFPPower.MdiParent = this.MdiParent;
+            CFPPower.Show();
+        }
     }
 }

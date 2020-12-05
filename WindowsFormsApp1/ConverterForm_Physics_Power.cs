@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class ConverterForm_Physics_Speed : Form
+    public partial class ConverterForm_Physics_Power : Form
     {
-        public ConverterForm_Physics_Speed()
+        public ConverterForm_Physics_Power()
         {
             InitializeComponent();
         }
@@ -30,33 +30,39 @@ namespace WindowsFormsApp1
             double multiplier = 0;
             switch (comboBox.SelectedIndex)
             {
+//меганьютон
+//килоньютон
+//деканьютон
+//ньютон
+//миллиньютом
+//миктоньютон
                 case -1:
                     label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case 0:
-                    multiplier = 999.999999992;
+                    multiplier = 1000000000000;
                     break;
                 case 1:
-                    multiplier = 3599999.9999712;
+                    multiplier = 1000000000;
                     break;
                 case 2:
-                    multiplier = 1;
+                    multiplier = 10000000;
                     break;
                 case 3:
-                    multiplier = 3599.9999999712;
+                    multiplier = 1000000;
                     break;
                 case 4:
-                    multiplier = 2236.9362920461044;
+                    multiplier = 1000;
                     break;
                 case 5:
-                    multiplier = 1943.8444924404491;
+                    multiplier = 1;
                     break;
             }
             return multiplier;
         }
         void show_result()//считает результат и выводит в бокс
         {
-            textBox2.Text = Convert.ToString(Check_Znach(comboBox2) * double.Parse(textBox1.Text) / Check_Znach(comboBox1));
+            textBox2.Text = Convert.ToString(Check_Znach(comboBox1) * double.Parse(textBox1.Text) / Check_Znach(comboBox2));
         }
 
 

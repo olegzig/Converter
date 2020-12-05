@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1
 {
-    partial class ConverterForm_Physics_Speed
+    partial class ConverterForm_Physics_Power
     {
         /// <summary>
         /// Required designer variable.
@@ -40,10 +40,10 @@ namespace WindowsFormsApp1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(256, 184);
+            this.button2.Location = new System.Drawing.Point(255, 184);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 13;
+            this.button2.TabIndex = 20;
             this.button2.Text = "<-->";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -52,66 +52,66 @@ namespace WindowsFormsApp1
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "м/c",
-            "м/ч",
-            "км/c",
-            "км/ч",
-            "миль/ч",
-            "узел"});
-            this.comboBox2.Location = new System.Drawing.Point(456, 152);
+            "меганьютон",
+            "килоньютон",
+            "деканьютон",
+            "ньютон",
+            "миллиньютон",
+            "миктоньютон"});
+            this.comboBox2.Location = new System.Drawing.Point(455, 152);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 24);
-            this.comboBox2.TabIndex = 12;
+            this.comboBox2.TabIndex = 19;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(349, 154);
+            this.textBox2.Location = new System.Drawing.Point(348, 154);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 11;
+            this.textBox2.TabIndex = 18;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(244, 155);
+            this.button1.Location = new System.Drawing.Point(243, 155);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 23);
-            this.button1.TabIndex = 10;
+            this.button1.TabIndex = 17;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(137, 155);
+            this.textBox1.Location = new System.Drawing.Point(136, 155);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 9;
+            this.textBox1.TabIndex = 16;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "м/c",
-            "м/ч",
-            "км/c",
-            "км/ч",
-            "миль/ч",
-            "узел"});
-            this.comboBox1.Location = new System.Drawing.Point(9, 155);
+            "меганьютон",
+            "килоньютон",
+            "деканьютон",
+            "ньютон",
+            "миллиньютон",
+            "миктоньютон"});
+            this.comboBox1.Location = new System.Drawing.Point(8, 155);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 8;
+            this.comboBox1.TabIndex = 15;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(198, 9);
+            this.label1.Location = new System.Drawing.Point(197, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(143, 17);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Конвертер скорости";
+            this.label1.Size = new System.Drawing.Size(116, 17);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Конвертер силы";
             // 
-            // ConverterForm_Physics_Speed
+            // ConverterForm_Physics_Power
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,8 +123,8 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
-            this.Name = "ConverterForm_Physics_Speed";
-            this.Text = "ConverterForm_Physics_Speed";
+            this.Name = "ConverterForm_Physics_Power";
+            this.Text = "ConverterForm_Physics_Power";
             this.ResumeLayout(false);
             this.PerformLayout();
 

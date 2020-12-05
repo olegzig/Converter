@@ -94,6 +94,7 @@
             this.button_Power.TabIndex = 5;
             this.button_Power.Text = "Сила";
             this.button_Power.UseVisualStyleBackColor = true;
+            this.button_Power.Click += new System.EventHandler(this.button_Power_Click);
             // 
             // button_Temperature
             // 
