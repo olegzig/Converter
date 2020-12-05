@@ -72,5 +72,12 @@ namespace WindowsFormsApp1
             CFPEnergy.MdiParent = this.MdiParent;
             CFPEnergy.Show();
         }
+
+        private void button_Light_Click(object sender, EventArgs e)
+        {
+            ConverterForm_Physics_Light CFPLight = new ConverterForm_Physics_Light();
+            CFPLight.MdiParent = this.MdiParent;
+            CFPLight.Show();
+        }
     }
 }
