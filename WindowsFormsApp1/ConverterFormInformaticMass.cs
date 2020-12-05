@@ -68,7 +68,7 @@ namespace WindowsFormsApp1
             }
             catch (DivideByZeroException)
             {
-                
+                textBox2.Text = "0,000000E+000";
             }
         }
 
