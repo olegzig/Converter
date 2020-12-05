@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class ConverterForm_Physics_Power : Form
+    public partial class ConverterForm_Physics_Volume : Form
     {
-        public ConverterForm_Physics_Power()
+        public ConverterForm_Physics_Volume()
         {
             InitializeComponent();
         }
@@ -34,19 +34,19 @@ namespace WindowsFormsApp1
                     label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case 0:
-                    multiplier = 1000000000000;
-                    break;
-                case 1:
-                    multiplier = 1000000000;
-                    break;
-                case 2:
-                    multiplier = 10000000;
-                    break;
-                case 3:
                     multiplier = 1000000;
                     break;
-                case 4:
+                case 1:
+                    multiplier = 158987.29;
+                    break;
+                case 2:
+                    multiplier = 4546.09;
+                    break;
+                case 3:
                     multiplier = 1000;
+                    break;
+                case 4:
+                    multiplier = 473.18;
                     break;
                 case 5:
                     multiplier = 1;

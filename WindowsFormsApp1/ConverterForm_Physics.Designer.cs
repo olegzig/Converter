@@ -35,6 +35,7 @@
             this.button_Frequency = new System.Windows.Forms.Button();
             this.button_Power = new System.Windows.Forms.Button();
             this.button_Temperature = new System.Windows.Forms.Button();
+            this.button_Volume = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_Weight
@@ -106,12 +107,23 @@
             this.button_Temperature.UseVisualStyleBackColor = true;
             this.button_Temperature.Click += new System.EventHandler(this.button_Temperature_Click);
             // 
+            // button_Volume
+            // 
+            this.button_Volume.Location = new System.Drawing.Point(82, 202);
+            this.button_Volume.Name = "button_Volume";
+            this.button_Volume.Size = new System.Drawing.Size(75, 23);
+            this.button_Volume.TabIndex = 7;
+            this.button_Volume.Text = "Объем";
+            this.button_Volume.UseVisualStyleBackColor = true;
+            this.button_Volume.Click += new System.EventHandler(this.button_Volume_Click);
+            // 
             // ConverterForm_Physics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.button_Volume);
             this.Controls.Add(this.button_Temperature);
             this.Controls.Add(this.button_Power);
             this.Controls.Add(this.button_Frequency);
@@ -136,5 +148,6 @@
         private System.Windows.Forms.Button button_Frequency;
         private System.Windows.Forms.Button button_Power;
         private System.Windows.Forms.Button button_Temperature;
+        private System.Windows.Forms.Button button_Volume;
     }
 }
