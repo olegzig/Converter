@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
         {
             DefaultImage.Visible = false;
 
-            ConverterFormChemistry CFChemistry = new ConverterFormChemistry();
+            ConverterFormInformaticsMain CFChemistry = new ConverterFormInformaticsMain();
             CFChemistry.MdiParent = this;
 
             CFChemistry.Show();

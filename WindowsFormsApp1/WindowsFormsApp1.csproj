@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,8 +35,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Math.Gmp.Native, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Math.Gmp.Native.NET.2.0.6\lib\net40\Math.Gmp.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="Math.Mpfr.Native, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Math.Mpfr.Native.NET.2.0.0\lib\net20\Math.Mpfr.Native.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +55,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConverterFormChemistry.cs">
+    <Compile Include="ConverterFormInformaitcsMath.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConverterFormChemistry.Designer.cs">
-      <DependentUpon>ConverterFormChemistry.cs</DependentUpon>
+    <Compile Include="ConverterFormInformaitcsMath.Designer.cs">
+      <DependentUpon>ConverterFormInformaitcsMath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterFormInformaticsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterFormInformaticsMain.Designer.cs">
+      <DependentUpon>ConverterFormInformaticsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterFormInformaticMass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterFormInformaticMass.Designer.cs">
+      <DependentUpon>ConverterFormInformaticMass.cs</DependentUpon>
     </Compile>
     <Compile Include="ConverterForm_Phusics_Distance.cs">
       <SubType>Form</SubType>
@@ -119,8 +140,14 @@
     <Compile Include="ReaderFormPhysics.Designer.cs">
       <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ConverterFormChemistry.resx">
-      <DependentUpon>ConverterFormChemistry.cs</DependentUpon>
+    <EmbeddedResource Include="ConverterFormInformaitcsMath.resx">
+      <DependentUpon>ConverterFormInformaitcsMath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterFormInformaticsMain.resx">
+      <DependentUpon>ConverterFormInformaticsMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterFormInformaticMass.resx">
+      <DependentUpon>ConverterFormInformaticMass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Phusics_Distance.resx">
       <DependentUpon>ConverterForm_Phusics_Distance.cs</DependentUpon>
@@ -175,9 +202,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="fffa99a20650bd5b.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Acceleration.rtf" />
     <None Include="Resources\baby-licking-window-glass.gif" />
   </ItemGroup>
@@ -196,4 +220,11 @@
     <None Include="Resources\qSRqh-bJOak.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets" Condition="Exists('packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets'))" />
+  </Target>
 </Project>
