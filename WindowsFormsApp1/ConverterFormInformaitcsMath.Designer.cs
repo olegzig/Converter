@@ -51,15 +51,10 @@
             // 
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
-            "мм",
-            "см",
-            "дюймы",
-            "дм",
-            "футт",
-            "ярд",
-            "метр",
-            "км",
-            "миля"});
+            "Двоичная",
+            "Восьмеричная",
+            "Десятиричная",
+            "Шестнадцатеричная"});
             this.comboBox2.Location = new System.Drawing.Point(447, 149);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 24);
@@ -71,7 +66,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 11;
-            this.textBox2.TextChanged += new System.EventHandler(this.button2_Click);
+            this.textBox2.TextChanged += new System.EventHandler(this.button1_Click);
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // button1
@@ -97,15 +92,10 @@
             // 
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "мм",
-            "см",
-            "дюймы",
-            "дм",
-            "футт",
-            "ярд",
-            "метр",
-            "км",
-            "миля"});
+            "Двоичная",
+            "Восьмеричная",
+            "Десятиричная",
+            "Шестнадцатеричная"});
             this.comboBox1.Location = new System.Drawing.Point(0, 152);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);

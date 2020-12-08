@@ -24,47 +24,101 @@ namespace WindowsFormsApp1
                 e.Handled = true;
             }
         }
-        double Check_Znach(ComboBox comboBox)
-        {
-            double multiplier = 0;
-            switch (comboBox.SelectedIndex)
-            {
-                case -1:
-                    label1.Text = "Выберите единицы измерения для перевода";
-                    break;
-                case 0:
-                    multiplier = 1;
-                    break;
-                case 1:
-                    multiplier = 10;
-                    break;
-                case 2:
-                    multiplier = 25.4;
-                    break;
-                case 3:
-                    multiplier = 100;
-                    break;
-                case 4:
-                    multiplier = 304.8;
-                    break;
-                case 5:
-                    multiplier = 914.4;
-                    break;
-                case 6:
-                    multiplier = 1000;
-                    break;
-                case 7:
-                    multiplier = 1000000;
-                    break;
-                case 8:
-                    multiplier = 1609344;
-                    break;
-            }
-            return multiplier;
-        }
         void show_result()//считает результат и выводит в бокс
         {
-            textBox2.Text = Convert.ToString(Check_Znach(comboBox1) * double.Parse(textBox1.Text) / Check_Znach(comboBox2));
+
+            try
+            {
+                switch (comboBox2.Text)
+                {
+                    default:
+                        label1.Text = "Выберите единицы измерения для перевода";
+                        break;
+                    case "Десятиричная":
+                        switch (comboBox1.Text)
+                        {
+                            default:
+                                label1.Text = "Выберите единицы измерения для перевода";
+                                break;
+                            case "Десятиричная": //10 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 10));
+                                break;
+                            case "Двоичная": // 2 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 2));
+                                break;
+                            case "Восьмеричная"://8 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 8));
+                                break;
+                            case "Шестнадцатеричная"://16 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 16));
+                                break;
+                        }
+                        break;
+                    case "Двоичная":
+                        switch (comboBox1.Text)
+                        {
+                            default:
+                                label1.Text = "Выберите единицы измерения для перевода";
+                                break;
+                            case "Десятиричная": //10 to 2
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 10), 2);
+                                break;
+                            case "Двоичная": // 2 to 2
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 2), 2);
+                                break;
+                            case "Восьмеричная"://8 to 2
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 8), 2);
+                                break;
+                            case "Шестнадцатеричная"://16 to 2
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 16), 2);
+                                break;
+                        }
+                        break;
+                    case "Восьмеричная":
+                        switch (comboBox1.Text)
+                        {
+                            default:
+                                label1.Text = "Выберите единицы измерения для перевода";
+                                break;
+                            case "Десятиричная": //10 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 10), 8);
+                                break;
+                            case "Двоичная": // 2 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 2), 8);
+                                break;
+                            case "Восьмеричная"://8 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 8), 8);
+                                break;
+                            case "Шестнадцатеричная"://16 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 16), 8);
+                                break;
+                        }
+                        break;
+                    case "Шестнадцатеричная":
+                        switch (comboBox1.Text)
+                        {
+                            default:
+                                label1.Text = "Выберите единицы измерения для перевода";
+                                break;
+                            case "Десятиричная": //10 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 10), 16);
+                                break;
+                            case "Двоичная": // 2 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 2), 16);
+                                break;
+                            case "Восьмеричная"://8 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 8), 16);
+                                break;
+                            case "Шестнадцатеричная"://16 to 10
+                                textBox2.Text = Convert.ToString(Convert.ToInt64(textBox1.Text, 16), 16);
+                                break;
+                        }
+                        break;
+                }
+            }
+            catch (OverflowException) {
+                textBox2.Text = "слишком большое для перевода";
+            }
         }
 
 
