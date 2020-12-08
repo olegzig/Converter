@@ -15,6 +15,8 @@ namespace WindowsFormsApp1
         public ConverterForm_Physics_Weight()
         {
             InitializeComponent();
+            textBox1.Text = "0";
+            textBox2.Text = "0";
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
@@ -31,7 +33,7 @@ namespace WindowsFormsApp1
             switch (comboBox.SelectedIndex)
             {
                 case -1:
-                    label1.Text = "Выберите единицы измерения для перевода";
+                     //label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case 0:
                     multiplier = 0.2;
@@ -78,6 +80,16 @@ namespace WindowsFormsApp1
             comboBox1.SelectedIndex = comboBox2.SelectedIndex;
             comboBox2.SelectedIndex = buf;
             show_result();
+        }
+
+        private void ConverterForm_Physics_Weight_Leave(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
