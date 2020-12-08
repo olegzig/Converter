@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44&&(number >= 'a' || number<='f')) //цифры, клавиша BackSpace и запятая а ASCII
+            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44&&(number <= 96 || number>=103)) //цифры, клавиша BackSpace и запятая а ASCII
             {
                 e.Handled = true;
             }
