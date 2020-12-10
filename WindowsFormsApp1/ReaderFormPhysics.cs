@@ -154,11 +154,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        private void richTextBox1_Leave(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void ReaderFormPhysics_Leave(object sender, EventArgs e)
         {
             this.Close();

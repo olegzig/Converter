@@ -242,7 +242,6 @@
             this.richTextBox1.Size = new System.Drawing.Size(469, 380);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
-            this.richTextBox1.Leave += new System.EventHandler(this.richTextBox1_Leave);
             // 
             // ReaderFormPhysics
             // 
