@@ -47,9 +47,10 @@ namespace WindowsFormsApp1
             "Фаренгейта",
             "Кельвин",
             "Реомюра"});
-            this.comboBox2.Location = new System.Drawing.Point(12, 88);
+            this.comboBox2.Location = new System.Drawing.Point(9, 72);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 24);
+            this.comboBox2.Size = new System.Drawing.Size(92, 21);
             this.comboBox2.TabIndex = 12;
             // 
             // comboBox1
@@ -60,25 +61,28 @@ namespace WindowsFormsApp1
             "Фаренгейта",
             "Кельвин",
             "Реомюра"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 58);
+            this.comboBox1.Location = new System.Drawing.Point(9, 47);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
+            this.comboBox1.Size = new System.Drawing.Size(92, 21);
             this.comboBox1.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(150, 9);
+            this.label1.Location = new System.Drawing.Point(112, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 17);
+            this.label1.Size = new System.Drawing.Size(131, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Конвертер температуры";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 118);
+            this.button2.Location = new System.Drawing.Point(9, 96);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(210, 40);
+            this.button2.Size = new System.Drawing.Size(158, 32);
             this.button2.TabIndex = 52;
             this.button2.Text = "<-->";
             this.button2.UseVisualStyleBackColor = true;
@@ -86,16 +90,18 @@ namespace WindowsFormsApp1
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(139, 88);
+            this.textBox2.Location = new System.Drawing.Point(104, 72);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(330, 22);
+            this.textBox2.Size = new System.Drawing.Size(248, 20);
             this.textBox2.TabIndex = 51;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(259, 118);
+            this.button1.Location = new System.Drawing.Point(194, 96);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(210, 40);
+            this.button1.Size = new System.Drawing.Size(158, 32);
             this.button1.TabIndex = 50;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
@@ -103,18 +109,20 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(139, 58);
+            this.textBox1.Location = new System.Drawing.Point(104, 47);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(330, 22);
+            this.textBox1.Size = new System.Drawing.Size(248, 20);
             this.textBox1.TabIndex = 49;
             this.textBox1.TextChanged += new System.EventHandler(this.button1_Click);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(394, 238);
+            this.button3.Location = new System.Drawing.Point(296, 193);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(56, 19);
             this.button3.TabIndex = 53;
             this.button3.Text = "Назад";
             this.button3.UseVisualStyleBackColor = true;
@@ -122,9 +130,9 @@ namespace WindowsFormsApp1
             // 
             // ConverterForm_Physics_Temperature
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 273);
+            this.ClientSize = new System.Drawing.Size(361, 222);
             this.ControlBox = false;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -135,8 +143,9 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ConverterForm_Physics_Temperature";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConverterForm_Physics_Temperature";
             this.Leave += new System.EventHandler(this.ConverterForm_Physics_Temperature_Leave);
             this.ResumeLayout(false);

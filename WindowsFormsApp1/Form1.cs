@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
 
             ConverterFormInformaticsMain CFChemistry = new ConverterFormInformaticsMain();
             CFChemistry.MdiParent = this;
+            
 
             CFChemistry.Show();
         }

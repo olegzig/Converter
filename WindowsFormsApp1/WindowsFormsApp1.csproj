@@ -70,6 +70,18 @@
     <Compile Include="AboutBox1.Designer.cs">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConverterFormInformaitcsMath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterFormInformaitcsMath.Designer.cs">
+      <DependentUpon>ConverterFormInformaitcsMath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterFormInformaticMass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterFormInformaticMass.Designer.cs">
+      <DependentUpon>ConverterFormInformaticMass.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConverterFormInformaticsMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +169,12 @@
     </Compile>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterFormInformaitcsMath.resx">
+      <DependentUpon>ConverterFormInformaitcsMath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterFormInformaticMass.resx">
+      <DependentUpon>ConverterFormInformaticMass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterFormInformaticsMain.resx">
       <DependentUpon>ConverterFormInformaticsMain.cs</DependentUpon>
