@@ -142,6 +142,11 @@ namespace WindowsFormsApp1
             {
                 textBox2.Text = "слишком большое для перевода";
             }
+            catch (System.FormatException)
+            {
+                textBox2.Text = "infinity";
+                textBox1.Text = null;
+            }
         }
 
 

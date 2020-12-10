@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Numerics;
 using System.Windows.Forms;
-
 namespace WindowsFormsApp1
 {
     public partial class ConverterFormInformaticMass : Form
@@ -60,7 +59,6 @@ namespace WindowsFormsApp1
         }
         void show_result()//считает результат и выводит в бокс
         {
-            //textBox2.Text = Convert.ToString(Check_Znach(comboBox1) * BigInteger.Parse(textBox1.Text) / Check_Znach(comboBox2));
             try
             {
                 textBox2.Text = String.Format("{0:E}", BigInteger.Divide(BigInteger.Multiply(Check_Znach(comboBox1), BigInteger.Parse(textBox1.Text)), Check_Znach(comboBox2)));
@@ -69,6 +67,11 @@ namespace WindowsFormsApp1
             catch (DivideByZeroException)
             {
                 textBox2.Text = "0,000000E+000";
+            }
+            catch (System.FormatException)
+            {
+                textBox2.Text = "infinity";
+                textBox1.Text = null;
             }
         }
 
@@ -98,7 +101,16 @@ namespace WindowsFormsApp1
         private void ConverterFormInformaticMass_Leave(object sender, EventArgs e)
         {
             this.Close();
-            
+
+        }
+
+        private void textBox1_MouseUp(object sender, MouseEventArgs e)
+        {
+            switch (e.Button)
+            {
+                case MouseButtons.Right:
+                    return;
+            }
         }
     }
 }
