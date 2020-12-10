@@ -118,6 +118,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ConverterForm_Physics";
             this.TransparencyKey = System.Drawing.SystemColors.Control;
+            this.Leave += new System.EventHandler(this.ConverterForm_Physics_Leave);
             this.ResumeLayout(false);
             this.PerformLayout();
 

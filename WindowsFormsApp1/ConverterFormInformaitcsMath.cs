@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -19,9 +12,38 @@ namespace WindowsFormsApp1
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44&&(number <= 96 || number>=103)) //цифры, клавиша BackSpace и запятая а ASCII
+
+            switch (comboBox1.Text)
             {
-                e.Handled = true;
+                default:
+                    label1.Text = "Выберите единицы измерения для перевода";
+                    break;
+                case "Десятиричная":
+                    if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44) //цифры, клавиша BackSpace и запятая а ASCII
+                    {
+                        e.Handled = true;
+                    }
+                    break;
+                case "Двоичная":
+                    if ((e.KeyChar <= 47 || e.KeyChar >= 50) && number != 8 && number != 44) //цифры, клавиша BackSpace и запятая а ASCII
+                    {
+                        e.Handled = true;
+                    }
+                    break;
+                case "Восьмеричная":
+                    if ((e.KeyChar <= 47 || e.KeyChar >= 56) && number != 8 && number != 44) //цифры, клавиша BackSpace и запятая а ASCII
+                    {
+                        e.Handled = true;
+                    }
+                    break;
+                case "Шестнадцатеричная":
+                    if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44 && (number <= 96 || number >= 103)) //цифры, клавиша BackSpace и запятая а ASCII
+                    {
+                        e.Handled = true;
+
+                        break;
+                    }
+                    break;
             }
         }
         void show_result()//считает результат и выводит в бокс
@@ -116,7 +138,8 @@ namespace WindowsFormsApp1
                         break;
                 }
             }
-            catch (OverflowException) {
+            catch (OverflowException)
+            {
                 textBox2.Text = "слишком большое для перевода";
             }
         }
@@ -137,6 +160,17 @@ namespace WindowsFormsApp1
             comboBox1.SelectedIndex = comboBox2.SelectedIndex;
             comboBox2.SelectedIndex = buf;
             show_result();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ConverterFormInformaitcsMath_Leave(object sender, EventArgs e)
+        {
+            this.Close();
+            
         }
     }
 }

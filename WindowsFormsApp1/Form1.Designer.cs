@@ -52,7 +52,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(14, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(622, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(622, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,21 +62,21 @@
             this.MenuConverterPhysics,
             this.MenuConverterChemistry});
             this.конвертерToolStripMenuItem.Name = "конвертерToolStripMenuItem";
-            this.конвертерToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.конвертерToolStripMenuItem.Size = new System.Drawing.Size(77, 19);
             this.конвертерToolStripMenuItem.Text = "Конвертер";
             // 
             // MenuConverterPhysics
             // 
             this.MenuConverterPhysics.Name = "MenuConverterPhysics";
-            this.MenuConverterPhysics.Size = new System.Drawing.Size(143, 26);
+            this.MenuConverterPhysics.Size = new System.Drawing.Size(180, 22);
             this.MenuConverterPhysics.Text = "Физика";
             this.MenuConverterPhysics.Click += new System.EventHandler(this.MenuConverterPhysics_Click);
             // 
             // MenuConverterChemistry
             // 
             this.MenuConverterChemistry.Name = "MenuConverterChemistry";
-            this.MenuConverterChemistry.Size = new System.Drawing.Size(143, 26);
-            this.MenuConverterChemistry.Text = "Химия";
+            this.MenuConverterChemistry.Size = new System.Drawing.Size(180, 22);
+            this.MenuConverterChemistry.Text = "Информатика";
             this.MenuConverterChemistry.Click += new System.EventHandler(this.MenuConverterChemistry_Click);
             // 
             // ридерToolStripMenuItem
@@ -85,27 +85,27 @@
             this.MenuReaderPhysics,
             this.MenuReaderChemistry});
             this.ридерToolStripMenuItem.Name = "ридерToolStripMenuItem";
-            this.ридерToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
-            this.ридерToolStripMenuItem.Text = "Ридер";
+            this.ридерToolStripMenuItem.Size = new System.Drawing.Size(78, 19);
+            this.ридерToolStripMenuItem.Text = "Глоссарий";
             // 
             // MenuReaderPhysics
             // 
             this.MenuReaderPhysics.Name = "MenuReaderPhysics";
-            this.MenuReaderPhysics.Size = new System.Drawing.Size(143, 26);
+            this.MenuReaderPhysics.Size = new System.Drawing.Size(180, 22);
             this.MenuReaderPhysics.Text = "Физика";
             this.MenuReaderPhysics.Click += new System.EventHandler(this.MenuReaderPhysics_Click);
             // 
             // MenuReaderChemistry
             // 
             this.MenuReaderChemistry.Name = "MenuReaderChemistry";
-            this.MenuReaderChemistry.Size = new System.Drawing.Size(143, 26);
-            this.MenuReaderChemistry.Text = "Химия";
+            this.MenuReaderChemistry.Size = new System.Drawing.Size(180, 22);
+            this.MenuReaderChemistry.Text = "Информатика";
             this.MenuReaderChemistry.Click += new System.EventHandler(this.MenuReaderChemistry_Click);
             // 
             // StripMenuHelp
             // 
             this.StripMenuHelp.Name = "StripMenuHelp";
-            this.StripMenuHelp.Size = new System.Drawing.Size(83, 24);
+            this.StripMenuHelp.Size = new System.Drawing.Size(68, 19);
             this.StripMenuHelp.Text = "Помощь";
             this.StripMenuHelp.Click += new System.EventHandler(this.StripMenuHelp_Click);
             // 
@@ -113,9 +113,9 @@
             // 
             this.DefaultImage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DefaultImage.Image = global::WindowsFormsApp1.Properties.Resources.qSRqh_bJOak;
-            this.DefaultImage.Location = new System.Drawing.Point(0, 30);
+            this.DefaultImage.Location = new System.Drawing.Point(0, 25);
             this.DefaultImage.Name = "DefaultImage";
-            this.DefaultImage.Size = new System.Drawing.Size(622, 383);
+            this.DefaultImage.Size = new System.Drawing.Size(622, 388);
             this.DefaultImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DefaultImage.TabIndex = 1;
             this.DefaultImage.TabStop = false;

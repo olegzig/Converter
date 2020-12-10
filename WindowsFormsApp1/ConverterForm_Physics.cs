@@ -72,5 +72,10 @@ namespace WindowsFormsApp1
             CFPEnergy.MdiParent = this.MdiParent;
             CFPEnergy.Show();
         }
+
+        private void ConverterForm_Physics_Leave(object sender, EventArgs e)
+        {
+            //мб тут клоуз
+        }
     }
 }

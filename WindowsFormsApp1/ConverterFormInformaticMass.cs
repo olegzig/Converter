@@ -21,9 +21,9 @@ namespace WindowsFormsApp1
         BigInteger Check_Znach(ComboBox comboBox)
         {
             BigInteger multiplier = new BigInteger();
-            
+
             multiplier = 0;
-            switch (comboBox.Text)
+            switch (comboBox1.Text)
             {
                 default:
                     label1.Text = "Выберите единицы измерения для перевода";
@@ -88,6 +88,17 @@ namespace WindowsFormsApp1
             comboBox1.SelectedIndex = comboBox2.SelectedIndex;
             comboBox2.SelectedIndex = buf;
             show_result();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void ConverterFormInformaticMass_Leave(object sender, EventArgs e)
+        {
+            this.Close();
+            
         }
     }
 }
