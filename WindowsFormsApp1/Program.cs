@@ -10,7 +10,7 @@ namespace WindowsFormsApp1
     {
         /// <summary>
         /// Главная точка входа для приложения.
-        /// </summary>
+        /// </summary>а
         [STAThread]
         static void Main()
         {
