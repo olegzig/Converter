@@ -99,7 +99,6 @@ namespace WindowsFormsApp1
             this.textBox1.TabIndex = 31;
             this.textBox1.TextChanged += new System.EventHandler(this.button1_Click);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
-            this.textBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseUp);
             // 
             // comboBox1
             // 

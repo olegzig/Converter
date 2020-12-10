@@ -77,12 +77,12 @@
             // 
             // OpenButtonRFPhysics
             // 
-            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(10, 55);
+            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(48, 57);
             this.OpenButtonRFPhysics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OpenButtonRFPhysics.Name = "OpenButtonRFPhysics";
             this.OpenButtonRFPhysics.Size = new System.Drawing.Size(113, 28);
             this.OpenButtonRFPhysics.TabIndex = 7;
-            this.OpenButtonRFPhysics.Text = "Открыть";
+            this.OpenButtonRFPhysics.Text = "Открыть файл";
             this.OpenButtonRFPhysics.UseVisualStyleBackColor = true;
             this.OpenButtonRFPhysics.Click += new System.EventHandler(this.OpenButtonRFPhysics_Click);
             // 
@@ -92,7 +92,7 @@
             this.RadioButtonInformaticsMass.Location = new System.Drawing.Point(3, 30);
             this.RadioButtonInformaticsMass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RadioButtonInformaticsMass.Name = "RadioButtonInformaticsMass";
-            this.RadioButtonInformaticsMass.Size = new System.Drawing.Size(53, 21);
+            this.RadioButtonInformaticsMass.Size = new System.Drawing.Size(44, 17);
             this.RadioButtonInformaticsMass.TabIndex = 8;
             this.RadioButtonInformaticsMass.Text = "Вес";
             this.RadioButtonInformaticsMass.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             this.RadioButtonInformaticsMathSystems.Location = new System.Drawing.Point(3, 2);
             this.RadioButtonInformaticsMathSystems.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RadioButtonInformaticsMathSystems.Name = "RadioButtonInformaticsMathSystems";
-            this.RadioButtonInformaticsMathSystems.Size = new System.Drawing.Size(161, 21);
+            this.RadioButtonInformaticsMathSystems.Size = new System.Drawing.Size(127, 17);
             this.RadioButtonInformaticsMathSystems.TabIndex = 6;
             this.RadioButtonInformaticsMathSystems.TabStop = true;
             this.RadioButtonInformaticsMathSystems.Text = "Системы счисления";

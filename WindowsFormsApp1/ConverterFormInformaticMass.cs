@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
             BigInteger multiplier = new BigInteger();
 
             multiplier = 0;
-            switch (comboBox1.Text)
+            switch (comboBox.Text)
             {
                 default:
                     label1.Text = "Выберите единицы измерения для перевода";
@@ -61,6 +61,17 @@ namespace WindowsFormsApp1
         {
             try
             {
+                //bug here 
+                /* так тоже не пашет
+                 *BigInteger f1 = new BigInteger();
+                BigInteger f2 = new BigInteger();
+                BigInteger f3 = new BigInteger();
+                f1 = Check_Znach(comboBox2);
+                f2 = BigInteger.Parse(textBox1.Text);
+                f3 = Check_Znach(comboBox1);
+                textBox2.Text = String.Format("{0:E}", BigInteger.Divide(BigInteger.Multiply(f1, f2), f3));
+                if (textBox2.Text == "0,000000E+000") textBox2.Text = "Не переводится";
+                 */
                 textBox2.Text = String.Format("{0:E}", BigInteger.Divide(BigInteger.Multiply(Check_Znach(comboBox1), BigInteger.Parse(textBox1.Text)), Check_Znach(comboBox2)));
                 if (textBox2.Text == "0,000000E+000") textBox2.Text = "Не переводится";
             }
