@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
         {
             DefaultImage.Visible = false;
 
-            ConverterFormChemistry CFChemistry = new ConverterFormChemistry();
+            ConverterFormInformaticsMain CFChemistry = new ConverterFormInformaticsMain();
             CFChemistry.MdiParent = this;
 
             CFChemistry.Show();
@@ -54,10 +54,8 @@ namespace WindowsFormsApp1
 
         private void StripMenuHelp_Click(object sender, EventArgs e)
         {
-            HelpForm help = new HelpForm();
+            AboutBox1 help = new AboutBox1();
             help.Show();
         }
-
-
     }
 }
