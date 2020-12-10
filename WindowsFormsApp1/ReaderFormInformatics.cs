@@ -16,6 +16,7 @@ namespace WindowsFormsApp1
         public ReaderFormInformaic()
         {
             InitializeComponent();
+            //this.WindowState = FormWindowState.Maximized;
         }
 
         private void OpenButtonRFPhysics_Click(object sender, EventArgs e)
@@ -69,6 +70,11 @@ namespace WindowsFormsApp1
                     }
                     break;
             }
+        }
+
+        private void ReaderFormInformaic_Leave(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -134,7 +134,7 @@ namespace WindowsFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 273);
+            this.ClientSize = new System.Drawing.Size(473, 267);
             this.ControlBox = false;
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
