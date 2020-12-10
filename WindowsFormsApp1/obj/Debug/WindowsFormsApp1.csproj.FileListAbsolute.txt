@@ -11,12 +11,6 @@ C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csp
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
-C:\Users\boris\Desktop\converter\WindowsFormsApp1\bin\Debug\Math.Gmp.Native.dll
-C:\Users\boris\Desktop\converter\WindowsFormsApp1\bin\Debug\Math.Mpfr.Native.dll
-C:\Users\boris\Desktop\converter\WindowsFormsApp1\bin\Debug\Math.Gmp.Native.pdb
-C:\Users\boris\Desktop\converter\WindowsFormsApp1\bin\Debug\Math.Gmp.Native.xml
-C:\Users\boris\Desktop\converter\WindowsFormsApp1\bin\Debug\Math.Mpfr.Native.pdb
-C:\Users\boris\Desktop\converter\WindowsFormsApp1\bin\Debug\Math.Mpfr.Native.xml
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterFormInformaitcsMath.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterFormInformaticsMain.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterFormInformaticMass.resources
@@ -24,8 +18,8 @@ C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Con
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Speed.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Temperature.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Weight.resources
-C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AboutBox1.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Energy.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Power.resources
 C:\Users\boris\Desktop\converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ConverterForm_Physics_Volume.resources
+C:\Users\boris\Desktop\Converter\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
