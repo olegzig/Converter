@@ -12,6 +12,23 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,8 +50,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Math.Gmp.Native, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Math.Gmp.Native.NET.2.0.6\lib\net40\Math.Gmp.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="Math.Mpfr.Native, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Math.Mpfr.Native.NET.2.0.0\lib\net20\Math.Mpfr.Native.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +70,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConverterFormChemistry.cs">
+    <Compile Include="AboutBox1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConverterFormChemistry.Designer.cs">
-      <DependentUpon>ConverterFormChemistry.cs</DependentUpon>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterFormInformaitcsMath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterFormInformaitcsMath.Designer.cs">
+      <DependentUpon>ConverterFormInformaitcsMath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterFormInformaticsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterFormInformaticsMain.Designer.cs">
+      <DependentUpon>ConverterFormInformaticsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterFormInformaticMass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterFormInformaticMass.Designer.cs">
+      <DependentUpon>ConverterFormInformaticMass.cs</DependentUpon>
     </Compile>
     <Compile Include="ConverterForm_Phusics_Distance.cs">
       <SubType>Form</SubType>
@@ -64,17 +106,53 @@
     <Compile Include="ConverterForm_Physics.Designer.cs">
       <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConverterForm_Physics_Energy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Energy.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Energy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Frequency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Frequency.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Frequency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Power.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Power.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Power.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Speed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Speed.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Speed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Temperature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Temperature.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Temperature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Volume.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Volume.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Volume.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Weight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConverterForm_Physics_Weight.Designer.cs">
+      <DependentUpon>ConverterForm_Physics_Weight.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HelpForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HelpForm.Designer.cs">
-      <DependentUpon>HelpForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,8 +173,17 @@
     <Compile Include="ReaderFormPhysics.Designer.cs">
       <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ConverterFormChemistry.resx">
-      <DependentUpon>ConverterFormChemistry.cs</DependentUpon>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterFormInformaitcsMath.resx">
+      <DependentUpon>ConverterFormInformaitcsMath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterFormInformaticsMain.resx">
+      <DependentUpon>ConverterFormInformaticsMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterFormInformaticMass.resx">
+      <DependentUpon>ConverterFormInformaticMass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConverterForm_Phusics_Distance.resx">
       <DependentUpon>ConverterForm_Phusics_Distance.cs</DependentUpon>
@@ -104,11 +191,29 @@
     <EmbeddedResource Include="ConverterForm_Physics.resx">
       <DependentUpon>ConverterForm_Physics.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Energy.resx">
+      <DependentUpon>ConverterForm_Physics_Energy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Frequency.resx">
+      <DependentUpon>ConverterForm_Physics_Frequency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Power.resx">
+      <DependentUpon>ConverterForm_Physics_Power.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Speed.resx">
+      <DependentUpon>ConverterForm_Physics_Speed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Temperature.resx">
+      <DependentUpon>ConverterForm_Physics_Temperature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Volume.resx">
+      <DependentUpon>ConverterForm_Physics_Volume.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConverterForm_Physics_Weight.resx">
+      <DependentUpon>ConverterForm_Physics_Weight.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HelpForm.resx">
-      <DependentUpon>HelpForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -139,9 +244,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="fffa99a20650bd5b.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Acceleration.rtf" />
     <None Include="Resources\baby-licking-window-glass.gif" />
   </ItemGroup>
@@ -159,5 +261,24 @@
     <None Include="Resources\Pressure.rtf" />
     <None Include="Resources\qSRqh-bJOak.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets" Condition="Exists('packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Baseclass.Contrib.Nuget.Output.2.4.3\build\Baseclass.Contrib.Nuget.Output.targets'))" />
+  </Target>
 </Project>

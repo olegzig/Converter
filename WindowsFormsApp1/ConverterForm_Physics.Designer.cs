@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConverterForm_Physics));
             this.button_Weight = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button_Distance = new System.Windows.Forms.Button();
@@ -35,78 +36,78 @@
             this.button_Frequency = new System.Windows.Forms.Button();
             this.button_Power = new System.Windows.Forms.Button();
             this.button_Temperature = new System.Windows.Forms.Button();
+            this.button_Volume = new System.Windows.Forms.Button();
+            this.button_Energy = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_Weight
             // 
-            this.button_Weight.Location = new System.Drawing.Point(82, 72);
+            resources.ApplyResources(this.button_Weight, "button_Weight");
             this.button_Weight.Name = "button_Weight";
-            this.button_Weight.Size = new System.Drawing.Size(75, 23);
-            this.button_Weight.TabIndex = 0;
-            this.button_Weight.Text = "Масса";
             this.button_Weight.UseVisualStyleBackColor = true;
+            this.button_Weight.Click += new System.EventHandler(this.button_Weight_Click);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(135, 24);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Конвертер величин для физики";
             // 
             // button_Distance
             // 
-            this.button_Distance.Location = new System.Drawing.Point(296, 72);
+            resources.ApplyResources(this.button_Distance, "button_Distance");
             this.button_Distance.Name = "button_Distance";
-            this.button_Distance.Size = new System.Drawing.Size(124, 23);
-            this.button_Distance.TabIndex = 2;
-            this.button_Distance.Text = "Расстояние";
             this.button_Distance.UseVisualStyleBackColor = true;
             this.button_Distance.Click += new System.EventHandler(this.button_Distance_Click);
             // 
             // button_Speed
             // 
-            this.button_Speed.Location = new System.Drawing.Point(82, 163);
+            resources.ApplyResources(this.button_Speed, "button_Speed");
             this.button_Speed.Name = "button_Speed";
-            this.button_Speed.Size = new System.Drawing.Size(88, 23);
-            this.button_Speed.TabIndex = 3;
-            this.button_Speed.Text = "Скорость";
             this.button_Speed.UseVisualStyleBackColor = true;
+            this.button_Speed.Click += new System.EventHandler(this.button_Speed_Click);
             // 
             // button_Frequency
             // 
-            this.button_Frequency.Location = new System.Drawing.Point(345, 116);
+            resources.ApplyResources(this.button_Frequency, "button_Frequency");
             this.button_Frequency.Name = "button_Frequency";
-            this.button_Frequency.Size = new System.Drawing.Size(75, 23);
-            this.button_Frequency.TabIndex = 4;
-            this.button_Frequency.Text = "Частота";
             this.button_Frequency.UseVisualStyleBackColor = true;
+            this.button_Frequency.Click += new System.EventHandler(this.button_Frequency_Click);
             // 
             // button_Power
             // 
-            this.button_Power.Location = new System.Drawing.Point(345, 163);
+            resources.ApplyResources(this.button_Power, "button_Power");
             this.button_Power.Name = "button_Power";
-            this.button_Power.Size = new System.Drawing.Size(75, 23);
-            this.button_Power.TabIndex = 5;
-            this.button_Power.Text = "Сила";
             this.button_Power.UseVisualStyleBackColor = true;
+            this.button_Power.Click += new System.EventHandler(this.button_Power_Click);
             // 
             // button_Temperature
             // 
-            this.button_Temperature.Location = new System.Drawing.Point(82, 116);
+            resources.ApplyResources(this.button_Temperature, "button_Temperature");
             this.button_Temperature.Name = "button_Temperature";
-            this.button_Temperature.Size = new System.Drawing.Size(108, 23);
-            this.button_Temperature.TabIndex = 6;
-            this.button_Temperature.Text = "Температура";
             this.button_Temperature.UseVisualStyleBackColor = true;
+            this.button_Temperature.Click += new System.EventHandler(this.button_Temperature_Click);
+            // 
+            // button_Volume
+            // 
+            resources.ApplyResources(this.button_Volume, "button_Volume");
+            this.button_Volume.Name = "button_Volume";
+            this.button_Volume.UseVisualStyleBackColor = true;
+            this.button_Volume.Click += new System.EventHandler(this.button_Volume_Click);
+            // 
+            // button_Energy
+            // 
+            resources.ApplyResources(this.button_Energy, "button_Energy");
+            this.button_Energy.Name = "button_Energy";
+            this.button_Energy.UseVisualStyleBackColor = true;
+            this.button_Energy.Click += new System.EventHandler(this.button_Energy_Click);
             // 
             // ConverterForm_Physics
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
+            this.Controls.Add(this.button_Energy);
+            this.Controls.Add(this.button_Volume);
             this.Controls.Add(this.button_Temperature);
             this.Controls.Add(this.button_Power);
             this.Controls.Add(this.button_Frequency);
@@ -114,9 +115,9 @@
             this.Controls.Add(this.button_Distance);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_Weight);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ConverterForm_Physics";
-            this.Text = "ConverterForm_Physics";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.TransparencyKey = System.Drawing.SystemColors.Control;
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,5 +132,7 @@
         private System.Windows.Forms.Button button_Frequency;
         private System.Windows.Forms.Button button_Power;
         private System.Windows.Forms.Button button_Temperature;
+        private System.Windows.Forms.Button button_Volume;
+        private System.Windows.Forms.Button button_Energy;
     }
 }
