@@ -29,16 +29,11 @@ namespace WindowsFormsApp1
         }
         double Check_Znach(ComboBox comboBox)
         {
-//миллигерц
-//герц
-//килогерц
-//мегагерц
-//петагерц
             double multiplier = 0;
             switch (comboBox.SelectedIndex)
             {
                 case -1:
-                    label1.Text = "Выберите единицы измерения для перевода";
+                    //label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case 0:
                     multiplier = 0.001;
@@ -78,7 +73,10 @@ namespace WindowsFormsApp1
             buf = comboBox1.SelectedIndex;
             comboBox1.SelectedIndex = comboBox2.SelectedIndex;
             comboBox2.SelectedIndex = buf;
-            show_result();
+            if (textBox1.Text != "")
+            {
+                show_result();
+            }
         }
 
         private void ConverterForm_Physics_Frequency_Leave(object sender, EventArgs e)

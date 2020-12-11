@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
             switch (comboBox.Text)
             {
                 default:
-                    label1.Text = "Выберите единицы измерения для перевода";
+                    //label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case "Байт":
                     multiplier = 1;
@@ -95,7 +95,10 @@ namespace WindowsFormsApp1
             buf = comboBox1.SelectedIndex;
             comboBox1.SelectedIndex = comboBox2.SelectedIndex;
             comboBox2.SelectedIndex = buf;
-            show_result();
+            if (textBox1.Text != "")
+            {
+                show_result();
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)

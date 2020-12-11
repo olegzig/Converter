@@ -54,7 +54,7 @@ namespace WindowsFormsApp1
                     multiplier = 10000;
                     break;
                 case 6:
-                    multiplier = 100000;
+                    multiplier = 1000000;
                     break;
             }
             return multiplier;
@@ -79,7 +79,10 @@ namespace WindowsFormsApp1
             buf = comboBox1.SelectedIndex;
             comboBox1.SelectedIndex = comboBox2.SelectedIndex;
             comboBox2.SelectedIndex = buf;
-            show_result();
+            if (textBox1.Text != "")
+            {
+                show_result();
+            }
         }
 
         private void ConverterForm_Physics_Weight_Leave(object sender, EventArgs e)

@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
             switch (comboBox1.Text)
             {
                 default:
-                    label1.Text = "Выберите единицы измерения для перевода";
+                    //label1.Text = "Выберите единицы измерения для перевода";
                     break;
                 case "Десятиричная":
                     if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44) //цифры, клавиша BackSpace и запятая а ASCII
@@ -171,7 +171,10 @@ namespace WindowsFormsApp1
             buf = comboBox1.SelectedIndex;
             comboBox1.SelectedIndex = comboBox2.SelectedIndex;
             comboBox2.SelectedIndex = buf;
-            show_result();
+            if (textBox1.Text != "")
+            {
+                show_result();
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
