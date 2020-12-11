@@ -85,7 +85,7 @@
             this.radioButtonPhysicPressure.Location = new System.Drawing.Point(3, 273);
             this.radioButtonPhysicPressure.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicPressure.Name = "radioButtonPhysicPressure";
-            this.radioButtonPhysicPressure.Size = new System.Drawing.Size(76, 17);
+            this.radioButtonPhysicPressure.Size = new System.Drawing.Size(95, 21);
             this.radioButtonPhysicPressure.TabIndex = 17;
             this.radioButtonPhysicPressure.TabStop = true;
             this.radioButtonPhysicPressure.Text = "Давление";
@@ -98,7 +98,7 @@
             this.radioButtonPhysicPower.Location = new System.Drawing.Point(3, 246);
             this.radioButtonPhysicPower.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicPower.Name = "radioButtonPhysicPower";
-            this.radioButtonPhysicPower.Size = new System.Drawing.Size(78, 17);
+            this.radioButtonPhysicPower.Size = new System.Drawing.Size(96, 21);
             this.radioButtonPhysicPower.TabIndex = 16;
             this.radioButtonPhysicPower.TabStop = true;
             this.radioButtonPhysicPower.Text = "Мощность";
@@ -111,7 +111,7 @@
             this.radioButtonPhysicForce.Location = new System.Drawing.Point(3, 192);
             this.radioButtonPhysicForce.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicForce.Name = "radioButtonPhysicForce";
-            this.radioButtonPhysicForce.Size = new System.Drawing.Size(50, 17);
+            this.radioButtonPhysicForce.Size = new System.Drawing.Size(62, 21);
             this.radioButtonPhysicForce.TabIndex = 15;
             this.radioButtonPhysicForce.TabStop = true;
             this.radioButtonPhysicForce.Text = "Сила";
@@ -124,7 +124,7 @@
             this.radioButtonPhysicEnergy.Location = new System.Drawing.Point(3, 219);
             this.radioButtonPhysicEnergy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicEnergy.Name = "radioButtonPhysicEnergy";
-            this.radioButtonPhysicEnergy.Size = new System.Drawing.Size(67, 17);
+            this.radioButtonPhysicEnergy.Size = new System.Drawing.Size(83, 21);
             this.radioButtonPhysicEnergy.TabIndex = 14;
             this.radioButtonPhysicEnergy.TabStop = true;
             this.radioButtonPhysicEnergy.Text = "Энергия";
@@ -137,7 +137,7 @@
             this.radioButtonPhysicMass.Location = new System.Drawing.Point(3, 165);
             this.radioButtonPhysicMass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicMass.Name = "radioButtonPhysicMass";
-            this.radioButtonPhysicMass.Size = new System.Drawing.Size(58, 17);
+            this.radioButtonPhysicMass.Size = new System.Drawing.Size(70, 21);
             this.radioButtonPhysicMass.TabIndex = 13;
             this.radioButtonPhysicMass.TabStop = true;
             this.radioButtonPhysicMass.Text = "Масса";
@@ -150,7 +150,7 @@
             this.radioButtonPhysicFrequency.Location = new System.Drawing.Point(3, 138);
             this.radioButtonPhysicFrequency.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicFrequency.Name = "radioButtonPhysicFrequency";
-            this.radioButtonPhysicFrequency.Size = new System.Drawing.Size(67, 17);
+            this.radioButtonPhysicFrequency.Size = new System.Drawing.Size(84, 21);
             this.radioButtonPhysicFrequency.TabIndex = 12;
             this.radioButtonPhysicFrequency.TabStop = true;
             this.radioButtonPhysicFrequency.Text = "Частота";
@@ -163,7 +163,7 @@
             this.radioButtonPhysicCurve.Location = new System.Drawing.Point(3, 111);
             this.radioButtonPhysicCurve.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicCurve.Name = "radioButtonPhysicCurve";
-            this.radioButtonPhysicCurve.Size = new System.Drawing.Size(93, 17);
+            this.radioButtonPhysicCurve.Size = new System.Drawing.Size(116, 21);
             this.radioButtonPhysicCurve.TabIndex = 11;
             this.radioButtonPhysicCurve.TabStop = true;
             this.radioButtonPhysicCurve.Text = "Искревление";
@@ -176,7 +176,7 @@
             this.radioButtonPhysicSpeed.Location = new System.Drawing.Point(3, 57);
             this.radioButtonPhysicSpeed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicSpeed.Name = "radioButtonPhysicSpeed";
-            this.radioButtonPhysicSpeed.Size = new System.Drawing.Size(73, 17);
+            this.radioButtonPhysicSpeed.Size = new System.Drawing.Size(90, 21);
             this.radioButtonPhysicSpeed.TabIndex = 10;
             this.radioButtonPhysicSpeed.TabStop = true;
             this.radioButtonPhysicSpeed.Text = "Скорость";
@@ -189,7 +189,7 @@
             this.radioButtonPhysicAcceleration.Location = new System.Drawing.Point(3, 84);
             this.radioButtonPhysicAcceleration.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicAcceleration.Name = "radioButtonPhysicAcceleration";
-            this.radioButtonPhysicAcceleration.Size = new System.Drawing.Size(81, 17);
+            this.radioButtonPhysicAcceleration.Size = new System.Drawing.Size(100, 21);
             this.radioButtonPhysicAcceleration.TabIndex = 9;
             this.radioButtonPhysicAcceleration.TabStop = true;
             this.radioButtonPhysicAcceleration.Text = "Ускорение";
@@ -213,7 +213,7 @@
             this.radioButtonPhysicTime.Location = new System.Drawing.Point(3, 30);
             this.radioButtonPhysicTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicTime.Name = "radioButtonPhysicTime";
-            this.radioButtonPhysicTime.Size = new System.Drawing.Size(58, 17);
+            this.radioButtonPhysicTime.Size = new System.Drawing.Size(71, 21);
             this.radioButtonPhysicTime.TabIndex = 8;
             this.radioButtonPhysicTime.TabStop = true;
             this.radioButtonPhysicTime.Text = "Время";
@@ -226,7 +226,7 @@
             this.radioButtonPhysicRange.Location = new System.Drawing.Point(3, 2);
             this.radioButtonPhysicRange.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButtonPhysicRange.Name = "radioButtonPhysicRange";
-            this.radioButtonPhysicRange.Size = new System.Drawing.Size(58, 17);
+            this.radioButtonPhysicRange.Size = new System.Drawing.Size(72, 21);
             this.radioButtonPhysicRange.TabIndex = 6;
             this.radioButtonPhysicRange.TabStop = true;
             this.radioButtonPhysicRange.Text = "Длина";

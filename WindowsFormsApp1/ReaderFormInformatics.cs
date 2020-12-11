@@ -70,6 +70,8 @@ namespace WindowsFormsApp1
                     }
                     break;
             }
+            richTextBox1.ScrollToCaret();
+            richTextBox1.Focus();
         }
 
         private void ReaderFormInformaic_Leave(object sender, EventArgs e)

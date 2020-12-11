@@ -152,6 +152,8 @@ namespace WindowsFormsApp1
                     }
                     break;
             }
+            richTextBox1.ScrollToCaret();
+            richTextBox1.Focus();
         }
 
         private void ReaderFormPhysics_Leave(object sender, EventArgs e)
