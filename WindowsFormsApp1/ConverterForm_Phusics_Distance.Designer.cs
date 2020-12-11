@@ -115,6 +115,7 @@ namespace WindowsFormsApp1
             // 
             this.textBox1.Location = new System.Drawing.Point(137, 58);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ShortcutsEnabled = false;
             this.textBox1.Size = new System.Drawing.Size(330, 22);
             this.textBox1.TabIndex = 29;
             this.textBox1.TextChanged += new System.EventHandler(this.button1_Click);

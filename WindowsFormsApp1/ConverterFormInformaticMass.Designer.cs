@@ -95,6 +95,7 @@ namespace WindowsFormsApp1
             this.textBox1.Location = new System.Drawing.Point(145, 38);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ShortcutsEnabled = false;
             this.textBox1.Size = new System.Drawing.Size(329, 22);
             this.textBox1.TabIndex = 31;
             this.textBox1.TextChanged += new System.EventHandler(this.button1_Click);
@@ -155,7 +156,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ConverterFormInformaticMass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConverterFormInformaticMass";
