@@ -41,10 +41,10 @@ namespace WindowsFormsApp1
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(14, 80);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(19, 98);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(158, 32);
+            this.button2.Size = new System.Drawing.Size(211, 39);
             this.button2.TabIndex = 35;
             this.button2.Text = "<-->";
             this.button2.UseVisualStyleBackColor = true;
@@ -63,28 +63,28 @@ namespace WindowsFormsApp1
             "Экзабайт",
             "Зетабайт",
             "Йотабайт"});
-            this.comboBox2.Location = new System.Drawing.Point(14, 56);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox2.Location = new System.Drawing.Point(19, 69);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(92, 21);
+            this.comboBox2.Size = new System.Drawing.Size(121, 24);
             this.comboBox2.TabIndex = 34;
             this.comboBox2.TextChanged += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(109, 56);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox2.Location = new System.Drawing.Point(145, 69);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(248, 20);
+            this.textBox2.Size = new System.Drawing.Size(329, 22);
             this.textBox2.TabIndex = 33;
             this.textBox2.TextChanged += new System.EventHandler(this.button1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(199, 80);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(265, 98);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(158, 32);
+            this.button1.Size = new System.Drawing.Size(211, 39);
             this.button1.TabIndex = 32;
             this.button1.Text = "Рассчитать";
             this.button1.UseVisualStyleBackColor = true;
@@ -92,10 +92,10 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(109, 31);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Location = new System.Drawing.Point(145, 38);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 20);
+            this.textBox1.Size = new System.Drawing.Size(329, 22);
             this.textBox1.TabIndex = 31;
             this.textBox1.TextChanged += new System.EventHandler(this.button1_Click);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
@@ -113,29 +113,28 @@ namespace WindowsFormsApp1
             "Экзабайт",
             "Зетабайт",
             "Йотабайт"});
-            this.comboBox1.Location = new System.Drawing.Point(14, 31);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Location = new System.Drawing.Point(19, 38);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(92, 21);
+            this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 30;
             this.comboBox1.TextChanged += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(125, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(167, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 13);
+            this.label1.Size = new System.Drawing.Size(113, 17);
             this.label1.TabIndex = 29;
             this.label1.Text = "Конвертер веса";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(288, 153);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Location = new System.Drawing.Point(384, 188);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(56, 19);
+            this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 37;
             this.button4.Text = "Назад";
             this.button4.UseVisualStyleBackColor = true;
@@ -143,9 +142,9 @@ namespace WindowsFormsApp1
             // 
             // ConverterFormInformaticMass
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(371, 183);
+            this.ClientSize = new System.Drawing.Size(495, 225);
             this.ControlBox = false;
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
@@ -156,6 +155,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ConverterFormInformaticMass";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConverterFormInformaticMass";
