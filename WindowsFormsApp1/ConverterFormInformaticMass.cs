@@ -62,18 +62,11 @@ namespace WindowsFormsApp1
         {
             try
             {
-                //bug here 
-                /* так тоже не пашет
-                 *BigInteger f1 = new BigInteger();
-                BigInteger f2 = new BigInteger();
-                BigInteger f3 = new BigInteger();
-                f1 = Check_Znach(comboBox2);
-                f2 = BigInteger.Parse(textBox1.Text);
-                f3 = Check_Znach(comboBox1);
-                textBox2.Text = String.Format("{0:E}", BigInteger.Divide(BigInteger.Multiply(f1, f2), f3));
-                if (textBox2.Text == "0,000000E+000") textBox2.Text = "Не переводится";
-                 */
-                textBox2.Text = String.Format("{0:E}", Check_Znach(comboBox1) * Double.Parse(textBox1.Text) / Check_Znach(comboBox2));
+                if (textBox1.Text == "00") textBox1.Text = "0"; 
+                if (textBox1.Text == "0") 
+                    textBox2.Text = "0";
+                else
+                    textBox2.Text = String.Format("{0:E}", Check_Znach(comboBox1) * Double.Parse(textBox1.Text) / Check_Znach(comboBox2));
                 if (textBox2.Text == "0,000000E+000") textBox2.Text = "Не переводится";
             }
             catch (DivideByZeroException)
@@ -83,7 +76,7 @@ namespace WindowsFormsApp1
             catch (System.FormatException)
             {
                 textBox2.Text = "infinity";
-                textBox1.Text = null;
+                textBox1.Text = "0";
             }
         }
 

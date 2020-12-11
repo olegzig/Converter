@@ -8,6 +8,8 @@ namespace WindowsFormsApp1
         public ConverterFormInformaitcsMath()
         {
             InitializeComponent();
+            textBox1.Text = "0";
+            textBox2.Text = "0";
         }
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -37,7 +39,7 @@ namespace WindowsFormsApp1
                     }
                     break;
                 case "Шестнадцатеричная":
-                    if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44 && (number <= 96 || number >= 103)) //цифры, клавиша BackSpace и запятая а ASCII
+                    if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44 && (number <= 96 || number >= 103) && (number <= 64 || number >= 71)) //цифры, клавиша BackSpace и запятая а ASCII
                     {
                         e.Handled = true;
 
@@ -145,7 +147,12 @@ namespace WindowsFormsApp1
             catch (System.FormatException)
             {
                 textBox2.Text = "infinity";
-                textBox1.Text = null;
+                textBox1.Text = "0";
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                textBox2.Text = "0";
+                textBox1.Text = "0";
             }
         }
 
