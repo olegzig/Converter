@@ -76,7 +76,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.richTextBox1);
             this.splitContainer1.Panel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.splitContainer1.Size = new System.Drawing.Size(617, 384);
-            this.splitContainer1.SplitterDistance = 140;
+            this.splitContainer1.SplitterDistance = 148;
             this.splitContainer1.TabIndex = 0;
             // 
             // radioButtonPhysicPressure
@@ -198,10 +198,12 @@
             // 
             // OpenButtonRFPhysics
             // 
-            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(12, 294);
+            this.OpenButtonRFPhysics.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(10, 310);
             this.OpenButtonRFPhysics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OpenButtonRFPhysics.Name = "OpenButtonRFPhysics";
-            this.OpenButtonRFPhysics.Size = new System.Drawing.Size(109, 28);
+            this.OpenButtonRFPhysics.Size = new System.Drawing.Size(113, 32);
             this.OpenButtonRFPhysics.TabIndex = 7;
             this.OpenButtonRFPhysics.Text = "Открыть файл";
             this.OpenButtonRFPhysics.UseVisualStyleBackColor = true;
@@ -239,7 +241,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(469, 380);
+            this.richTextBox1.Size = new System.Drawing.Size(461, 380);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 

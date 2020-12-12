@@ -49,7 +49,7 @@
             this.richTextBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
             this.richTextBox1.ShowSelectionMargin = true;
-            this.richTextBox1.Size = new System.Drawing.Size(390, 380);
+            this.richTextBox1.Size = new System.Drawing.Size(395, 380);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
             // 
@@ -72,15 +72,17 @@
             this.splitContainer1.Panel2.Controls.Add(this.richTextBox1);
             this.splitContainer1.Panel2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.splitContainer1.Size = new System.Drawing.Size(617, 384);
-            this.splitContainer1.SplitterDistance = 219;
+            this.splitContainer1.SplitterDistance = 214;
             this.splitContainer1.TabIndex = 1;
             // 
             // OpenButtonRFPhysics
             // 
-            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(48, 57);
+            this.OpenButtonRFPhysics.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.OpenButtonRFPhysics.Location = new System.Drawing.Point(51, 55);
             this.OpenButtonRFPhysics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.OpenButtonRFPhysics.Name = "OpenButtonRFPhysics";
-            this.OpenButtonRFPhysics.Size = new System.Drawing.Size(113, 28);
+            this.OpenButtonRFPhysics.Size = new System.Drawing.Size(113, 32);
             this.OpenButtonRFPhysics.TabIndex = 7;
             this.OpenButtonRFPhysics.Text = "Открыть файл";
             this.OpenButtonRFPhysics.UseVisualStyleBackColor = true;
@@ -92,7 +94,7 @@
             this.RadioButtonInformaticsMass.Location = new System.Drawing.Point(3, 30);
             this.RadioButtonInformaticsMass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RadioButtonInformaticsMass.Name = "RadioButtonInformaticsMass";
-            this.RadioButtonInformaticsMass.Size = new System.Drawing.Size(44, 17);
+            this.RadioButtonInformaticsMass.Size = new System.Drawing.Size(53, 21);
             this.RadioButtonInformaticsMass.TabIndex = 8;
             this.RadioButtonInformaticsMass.Text = "Вес";
             this.RadioButtonInformaticsMass.UseVisualStyleBackColor = true;
@@ -104,7 +106,7 @@
             this.RadioButtonInformaticsMathSystems.Location = new System.Drawing.Point(3, 2);
             this.RadioButtonInformaticsMathSystems.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RadioButtonInformaticsMathSystems.Name = "RadioButtonInformaticsMathSystems";
-            this.RadioButtonInformaticsMathSystems.Size = new System.Drawing.Size(127, 17);
+            this.RadioButtonInformaticsMathSystems.Size = new System.Drawing.Size(161, 21);
             this.RadioButtonInformaticsMathSystems.TabIndex = 6;
             this.RadioButtonInformaticsMathSystems.TabStop = true;
             this.RadioButtonInformaticsMathSystems.Text = "Системы счисления";
