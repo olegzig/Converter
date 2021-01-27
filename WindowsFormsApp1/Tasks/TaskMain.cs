@@ -23,6 +23,7 @@ namespace WindowsFormsApp1.Tasks
             form.MdiParent = this;
 
             form.Show();
+            pictureBox1.Hide();
         }
 
         private void MathT1ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -31,6 +32,7 @@ namespace WindowsFormsApp1.Tasks
             form.MdiParent = this;
 
             form.Show();
+            pictureBox1.Hide();
         }
 
         private void PhyisicT2ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -39,6 +41,7 @@ namespace WindowsFormsApp1.Tasks
             form.MdiParent = this;
 
             form.Show();
+            pictureBox1.Hide();
         }
 
         private void MathT2ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,6 +50,7 @@ namespace WindowsFormsApp1.Tasks
             form.MdiParent = this;
 
             form.Show();
+            pictureBox1.Hide();
         }
     }
 }

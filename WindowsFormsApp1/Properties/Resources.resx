@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Безымян22ный" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Безымян22ный.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Myla_Singing" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Myla_Singing.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,7 +130,7 @@
   <data name="qSRqh-bJOak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\qSRqh-bJOak.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Безымян22ный" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Безымян22ный.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Безымянный33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Безымянный33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
