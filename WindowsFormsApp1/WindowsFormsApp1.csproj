@@ -232,6 +232,9 @@
     <EmbeddedResource Include="ReaderFormPhysics.resx">
       <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tasks\TaskMath.resx">
+      <DependentUpon>TaskMath.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
