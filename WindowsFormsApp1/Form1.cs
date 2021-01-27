@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 //DefaultImage - картинка которая ебашится на старте
 
@@ -57,6 +58,11 @@ namespace WindowsFormsApp1
         {
             AboutBox1 help = new AboutBox1();
             help.Show();
+        }
+
+        private void CalcInvoke_Click(object sender, EventArgs e)
+        {
+            Process.Start("calc");
         }
     }
 }

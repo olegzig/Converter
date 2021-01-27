@@ -36,6 +36,7 @@
             this.ридерToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReaderPhysics = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReaderChemistry = new System.Windows.Forms.ToolStripMenuItem();
+            this.калькуляторToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.StripMenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.DefaultImage = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
@@ -48,6 +49,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.конвертерToolStripMenuItem,
             this.ридерToolStripMenuItem,
+            this.калькуляторToolStripMenuItem,
             this.StripMenuHelp});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -101,6 +103,13 @@
             this.MenuReaderChemistry.Size = new System.Drawing.Size(189, 26);
             this.MenuReaderChemistry.Text = "Информатика";
             this.MenuReaderChemistry.Click += new System.EventHandler(this.MenuReaderChemistry_Click);
+            // 
+            // калькуляторToolStripMenuItem
+            // 
+            this.калькуляторToolStripMenuItem.Name = "калькуляторToolStripMenuItem";
+            this.калькуляторToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.калькуляторToolStripMenuItem.Text = "Калькулятор";
+            this.калькуляторToolStripMenuItem.Click += new System.EventHandler(this.CalcInvoke_Click);
             // 
             // StripMenuHelp
             // 
@@ -158,6 +167,7 @@
         private System.Windows.Forms.ToolStripMenuItem MenuReaderPhysics;
         private System.Windows.Forms.ToolStripMenuItem MenuReaderChemistry;
         private System.Windows.Forms.PictureBox DefaultImage;
+        private System.Windows.Forms.ToolStripMenuItem калькуляторToolStripMenuItem;
     }
 }
 
