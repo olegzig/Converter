@@ -37,11 +37,9 @@
             this.MenuReaderPhysics = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReaderChemistry = new System.Windows.Forms.ToolStripMenuItem();
             this.калькуляторToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.примерыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.StripMenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.DefaultImage = new System.Windows.Forms.PictureBox();
-            this.примерыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.MathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.PhysicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).BeginInit();
             this.SuspendLayout();
@@ -58,7 +56,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(14, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(622, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(622, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,20 +66,20 @@
             this.MenuConverterPhysics,
             this.MenuConverterChemistry});
             this.конвертерToolStripMenuItem.Name = "конвертерToolStripMenuItem";
-            this.конвертерToolStripMenuItem.Size = new System.Drawing.Size(98, 24);
+            this.конвертерToolStripMenuItem.Size = new System.Drawing.Size(77, 19);
             this.конвертерToolStripMenuItem.Text = "Конвертер";
             // 
             // MenuConverterPhysics
             // 
             this.MenuConverterPhysics.Name = "MenuConverterPhysics";
-            this.MenuConverterPhysics.Size = new System.Drawing.Size(189, 26);
+            this.MenuConverterPhysics.Size = new System.Drawing.Size(152, 22);
             this.MenuConverterPhysics.Text = "Физика";
             this.MenuConverterPhysics.Click += new System.EventHandler(this.MenuConverterPhysics_Click);
             // 
             // MenuConverterChemistry
             // 
             this.MenuConverterChemistry.Name = "MenuConverterChemistry";
-            this.MenuConverterChemistry.Size = new System.Drawing.Size(189, 26);
+            this.MenuConverterChemistry.Size = new System.Drawing.Size(152, 22);
             this.MenuConverterChemistry.Text = "Информатика";
             this.MenuConverterChemistry.Click += new System.EventHandler(this.MenuConverterChemistry_Click);
             // 
@@ -91,34 +89,41 @@
             this.MenuReaderPhysics,
             this.MenuReaderChemistry});
             this.ридерToolStripMenuItem.Name = "ридерToolStripMenuItem";
-            this.ридерToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
+            this.ридерToolStripMenuItem.Size = new System.Drawing.Size(78, 19);
             this.ридерToolStripMenuItem.Text = "Глоссарий";
             // 
             // MenuReaderPhysics
             // 
             this.MenuReaderPhysics.Name = "MenuReaderPhysics";
-            this.MenuReaderPhysics.Size = new System.Drawing.Size(189, 26);
+            this.MenuReaderPhysics.Size = new System.Drawing.Size(152, 22);
             this.MenuReaderPhysics.Text = "Физика";
             this.MenuReaderPhysics.Click += new System.EventHandler(this.MenuReaderPhysics_Click);
             // 
             // MenuReaderChemistry
             // 
             this.MenuReaderChemistry.Name = "MenuReaderChemistry";
-            this.MenuReaderChemistry.Size = new System.Drawing.Size(189, 26);
+            this.MenuReaderChemistry.Size = new System.Drawing.Size(152, 22);
             this.MenuReaderChemistry.Text = "Информатика";
             this.MenuReaderChemistry.Click += new System.EventHandler(this.MenuReaderChemistry_Click);
             // 
             // калькуляторToolStripMenuItem
             // 
             this.калькуляторToolStripMenuItem.Name = "калькуляторToolStripMenuItem";
-            this.калькуляторToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.калькуляторToolStripMenuItem.Size = new System.Drawing.Size(89, 19);
             this.калькуляторToolStripMenuItem.Text = "Калькулятор";
             this.калькуляторToolStripMenuItem.Click += new System.EventHandler(this.CalcInvoke_Click);
+            // 
+            // примерыToolStripMenuItem
+            // 
+            this.примерыToolStripMenuItem.Name = "примерыToolStripMenuItem";
+            this.примерыToolStripMenuItem.Size = new System.Drawing.Size(73, 19);
+            this.примерыToolStripMenuItem.Text = "Примеры";
+            this.примерыToolStripMenuItem.Click += new System.EventHandler(this.TasksToolStripMenuItem_Click);
             // 
             // StripMenuHelp
             // 
             this.StripMenuHelp.Name = "StripMenuHelp";
-            this.StripMenuHelp.Size = new System.Drawing.Size(128, 24);
+            this.StripMenuHelp.Size = new System.Drawing.Size(102, 19);
             this.StripMenuHelp.Text = "О приложении";
             this.StripMenuHelp.Click += new System.EventHandler(this.StripMenuHelp_Click);
             // 
@@ -126,35 +131,12 @@
             // 
             this.DefaultImage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DefaultImage.Image = global::WindowsFormsApp1.Properties.Resources.qSRqh_bJOak;
-            this.DefaultImage.Location = new System.Drawing.Point(0, 30);
+            this.DefaultImage.Location = new System.Drawing.Point(0, 25);
             this.DefaultImage.Name = "DefaultImage";
-            this.DefaultImage.Size = new System.Drawing.Size(622, 383);
+            this.DefaultImage.Size = new System.Drawing.Size(622, 388);
             this.DefaultImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DefaultImage.TabIndex = 1;
             this.DefaultImage.TabStop = false;
-            // 
-            // примерыToolStripMenuItem
-            // 
-            this.примерыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MathToolStripMenuItem,
-            this.PhysicToolStripMenuItem});
-            this.примерыToolStripMenuItem.Name = "примерыToolStripMenuItem";
-            this.примерыToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
-            this.примерыToolStripMenuItem.Text = "Примеры";
-            // 
-            // MathToolStripMenuItem
-            // 
-            this.MathToolStripMenuItem.Name = "MathToolStripMenuItem";
-            this.MathToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.MathToolStripMenuItem.Text = "Математика";
-            this.MathToolStripMenuItem.Click += new System.EventHandler(this.MathToolStripMenuItem_Click);
-            // 
-            // PhysicToolStripMenuItem
-            // 
-            this.PhysicToolStripMenuItem.Name = "PhysicToolStripMenuItem";
-            this.PhysicToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.PhysicToolStripMenuItem.Text = "Физика";
-            this.PhysicToolStripMenuItem.Click += new System.EventHandler(this.PhysicToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -196,8 +178,6 @@
         private System.Windows.Forms.PictureBox DefaultImage;
         private System.Windows.Forms.ToolStripMenuItem калькуляторToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem примерыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem MathToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem PhysicToolStripMenuItem;
     }
 }
 

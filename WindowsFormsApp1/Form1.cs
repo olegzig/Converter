@@ -68,13 +68,18 @@ namespace WindowsFormsApp1
 
         private void MathToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tasks.TaskMath _form = new Tasks.TaskMath();
-            _form.Show();
+           
         }
 
         private void PhysicToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tasks.TaskPhysic _form = new Tasks.TaskPhysic();
+            Tasks.TaskMain _form = new Tasks.TaskMain();
+            _form.Show();
+        }
+
+        private void TasksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tasks.TaskMain _form = new Tasks.TaskMain();
             _form.Show();
         }
     }
