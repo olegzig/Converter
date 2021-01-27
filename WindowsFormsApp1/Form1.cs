@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Threading;
 using System.Windows.Forms;
 //DefaultImage - картинка которая ебашится на старте
 
@@ -63,6 +64,18 @@ namespace WindowsFormsApp1
         private void CalcInvoke_Click(object sender, EventArgs e)
         {
             Process.Start("calc");
+        }
+
+        private void MathToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tasks.TaskMath _form = new Tasks.TaskMath();
+            _form.Show();
+        }
+
+        private void PhysicToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Tasks.TaskPhysic _form = new Tasks.TaskPhysic();
+            _form.Show();
         }
     }
 }

@@ -167,6 +167,18 @@
     <Compile Include="ReaderFormPhysics.Designer.cs">
       <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Tasks\TaskMath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasks\TaskMath.Designer.cs">
+      <DependentUpon>TaskMath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\TaskPhysic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasks\TaskPhysic.Designer.cs">
+      <DependentUpon>TaskPhysic.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>

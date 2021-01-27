@@ -40,8 +40,8 @@
             this.StripMenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.DefaultImage = new System.Windows.Forms.PictureBox();
             this.примерыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.математикаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.физикаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PhysicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DefaultImage)).BeginInit();
             this.SuspendLayout();
@@ -136,23 +136,25 @@
             // примерыToolStripMenuItem
             // 
             this.примерыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.математикаToolStripMenuItem,
-            this.физикаToolStripMenuItem});
+            this.MathToolStripMenuItem,
+            this.PhysicToolStripMenuItem});
             this.примерыToolStripMenuItem.Name = "примерыToolStripMenuItem";
             this.примерыToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
             this.примерыToolStripMenuItem.Text = "Примеры";
             // 
-            // математикаToolStripMenuItem
+            // MathToolStripMenuItem
             // 
-            this.математикаToolStripMenuItem.Name = "математикаToolStripMenuItem";
-            this.математикаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.математикаToolStripMenuItem.Text = "Математика";
+            this.MathToolStripMenuItem.Name = "MathToolStripMenuItem";
+            this.MathToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.MathToolStripMenuItem.Text = "Математика";
+            this.MathToolStripMenuItem.Click += new System.EventHandler(this.MathToolStripMenuItem_Click);
             // 
-            // физикаToolStripMenuItem
+            // PhysicToolStripMenuItem
             // 
-            this.физикаToolStripMenuItem.Name = "физикаToolStripMenuItem";
-            this.физикаToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.физикаToolStripMenuItem.Text = "Физика";
+            this.PhysicToolStripMenuItem.Name = "PhysicToolStripMenuItem";
+            this.PhysicToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.PhysicToolStripMenuItem.Text = "Физика";
+            this.PhysicToolStripMenuItem.Click += new System.EventHandler(this.PhysicToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -194,8 +196,8 @@
         private System.Windows.Forms.PictureBox DefaultImage;
         private System.Windows.Forms.ToolStripMenuItem калькуляторToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem примерыToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem математикаToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem физикаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MathToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PhysicToolStripMenuItem;
     }
 }
 
