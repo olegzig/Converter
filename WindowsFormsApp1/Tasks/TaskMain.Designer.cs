@@ -31,11 +31,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.PhysicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PhyisicT1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PhyisicT2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.задание1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.задание2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.пример1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.пример2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MathT1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MathT2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,44 +59,48 @@
             // PhysicToolStripMenuItem
             // 
             this.PhysicToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.задание1ToolStripMenuItem,
-            this.задание2ToolStripMenuItem});
+            this.PhyisicT1ToolStripMenuItem,
+            this.PhyisicT2ToolStripMenuItem});
             this.PhysicToolStripMenuItem.Name = "PhysicToolStripMenuItem";
             this.PhysicToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.PhysicToolStripMenuItem.Text = "Физика";
             // 
+            // PhyisicT1ToolStripMenuItem
+            // 
+            this.PhyisicT1ToolStripMenuItem.Name = "PhyisicT1ToolStripMenuItem";
+            this.PhyisicT1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.PhyisicT1ToolStripMenuItem.Text = "Пример 1";
+            this.PhyisicT1ToolStripMenuItem.Click += new System.EventHandler(this.PhyisicT1ToolStripMenuItem_Click);
+            // 
+            // PhyisicT2ToolStripMenuItem
+            // 
+            this.PhyisicT2ToolStripMenuItem.Name = "PhyisicT2ToolStripMenuItem";
+            this.PhyisicT2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.PhyisicT2ToolStripMenuItem.Text = "Задание 2";
+            this.PhyisicT2ToolStripMenuItem.Click += new System.EventHandler(this.PhyisicT2ToolStripMenuItem_Click);
+            // 
             // MathToolStripMenuItem
             // 
             this.MathToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.пример1ToolStripMenuItem,
-            this.пример2ToolStripMenuItem});
+            this.MathT1ToolStripMenuItem,
+            this.MathT2ToolStripMenuItem});
             this.MathToolStripMenuItem.Name = "MathToolStripMenuItem";
             this.MathToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.MathToolStripMenuItem.Text = "Математика";
             // 
-            // задание1ToolStripMenuItem
+            // MathT1ToolStripMenuItem
             // 
-            this.задание1ToolStripMenuItem.Name = "задание1ToolStripMenuItem";
-            this.задание1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.задание1ToolStripMenuItem.Text = "Пример 1";
+            this.MathT1ToolStripMenuItem.Name = "MathT1ToolStripMenuItem";
+            this.MathT1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.MathT1ToolStripMenuItem.Text = "Пример 1";
+            this.MathT1ToolStripMenuItem.Click += new System.EventHandler(this.MathT1ToolStripMenuItem_Click);
             // 
-            // задание2ToolStripMenuItem
+            // MathT2ToolStripMenuItem
             // 
-            this.задание2ToolStripMenuItem.Name = "задание2ToolStripMenuItem";
-            this.задание2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.задание2ToolStripMenuItem.Text = "Задание 2";
-            // 
-            // пример1ToolStripMenuItem
-            // 
-            this.пример1ToolStripMenuItem.Name = "пример1ToolStripMenuItem";
-            this.пример1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.пример1ToolStripMenuItem.Text = "Пример 1";
-            // 
-            // пример2ToolStripMenuItem
-            // 
-            this.пример2ToolStripMenuItem.Name = "пример2ToolStripMenuItem";
-            this.пример2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.пример2ToolStripMenuItem.Text = "Пример 2";
+            this.MathT2ToolStripMenuItem.Name = "MathT2ToolStripMenuItem";
+            this.MathT2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.MathT2ToolStripMenuItem.Text = "Пример 2";
+            this.MathT2ToolStripMenuItem.Click += new System.EventHandler(this.MathT2ToolStripMenuItem_Click);
             // 
             // TaskMain
             // 
@@ -124,9 +128,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem PhysicToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem MathToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem задание1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem задание2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem пример1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem пример2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PhyisicT1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem PhyisicT2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MathT1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MathT2ToolStripMenuItem;
     }
 }

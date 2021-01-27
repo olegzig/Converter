@@ -67,7 +67,6 @@
             this.Name = "ConverterFormInformaticsMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ConverterFormChemistry";
-            this.Leave += new System.EventHandler(this.ConverterFormInformaticsMain_Leave);
             this.ResumeLayout(false);
 
         }

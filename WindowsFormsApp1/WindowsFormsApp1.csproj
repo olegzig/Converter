@@ -167,17 +167,17 @@
     <Compile Include="ReaderFormPhysics.Designer.cs">
       <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tasks\PhyisicT2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Tasks\PhyisicT2.Designer.cs">
-      <DependentUpon>PhyisicT2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Tasks\PhyisicT1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tasks\PhyisicT1.Designer.cs">
       <DependentUpon>PhyisicT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tasks\MathT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tasks\MathT1.Designer.cs">
+      <DependentUpon>MathT1.cs</DependentUpon>
     </Compile>
     <Compile Include="Tasks\MathT2.cs">
       <SubType>Form</SubType>
@@ -185,11 +185,11 @@
     <Compile Include="Tasks\MathT2.Designer.cs">
       <DependentUpon>MathT2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tasks\MathT1.cs">
+    <Compile Include="Tasks\PhyisicT2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tasks\MathT1.Designer.cs">
-      <DependentUpon>MathT1.cs</DependentUpon>
+    <Compile Include="Tasks\PhyisicT2.Designer.cs">
+      <DependentUpon>PhyisicT2.cs</DependentUpon>
     </Compile>
     <Compile Include="Tasks\TaskMain.cs">
       <SubType>Form</SubType>
@@ -250,17 +250,17 @@
     <EmbeddedResource Include="ReaderFormPhysics.resx">
       <DependentUpon>ReaderFormPhysics.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tasks\PhyisicT2.resx">
-      <DependentUpon>PhyisicT2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Tasks\PhyisicT1.resx">
-      <DependentUpon>PhyisicT1.cs</DependentUpon>
+    <EmbeddedResource Include="Tasks\MathT1.resx">
+      <DependentUpon>MathT1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tasks\MathT2.resx">
       <DependentUpon>MathT2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tasks\MathT1.resx">
-      <DependentUpon>MathT1.cs</DependentUpon>
+    <EmbeddedResource Include="Tasks\PhyisicT1.resx">
+      <DependentUpon>PhyisicT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tasks\PhyisicT2.resx">
+      <DependentUpon>PhyisicT2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tasks\TaskMain.resx">
       <DependentUpon>TaskMain.cs</DependentUpon>

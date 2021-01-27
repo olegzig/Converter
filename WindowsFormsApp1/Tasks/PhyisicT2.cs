@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Tasks
 {
-    public partial class MathT1 : Form
+    public partial class PhyisicT2 : Form
     {
-        public MathT1()
+        public PhyisicT2()
         {
             InitializeComponent();
         }

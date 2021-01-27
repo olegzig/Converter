@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1.Tasks
 {
-    partial class MathT1
+    partial class PhyisicT2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,20 @@ namespace WindowsFormsApp1.Tasks
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // PhyisicT2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "MathT1";
+            this.ClientSize = new System.Drawing.Size(360, 222);
+            this.ControlBox = false;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "PhyisicT2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "PhyisicT2";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
