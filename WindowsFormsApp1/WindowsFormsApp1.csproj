@@ -235,6 +235,9 @@
     <EmbeddedResource Include="Tasks\TaskMath.resx">
       <DependentUpon>TaskMath.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tasks\TaskPhysic.resx">
+      <DependentUpon>TaskPhysic.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -281,6 +284,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Безымян22ный.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
