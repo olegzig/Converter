@@ -12,7 +12,8 @@ namespace WindowsFormsApp1.Tasks
 {
     public partial class TaskForm : Form
     {
-        private string[] rightAws = new string[] { "1", "2", "3", "4" };
+        private string[] rightAws = new string[] { "Senjor Le Costylio", "1", "2", "3", "4" };
+        bool shitHappens = true;
 
         public TaskForm()
         {
@@ -38,6 +39,26 @@ namespace WindowsFormsApp1.Tasks
                 case 4:
                     richTextBox1.Text = "4";
                     break;
+            }
+        }
+
+        private void AwsChk_Click(object sender, EventArgs e)
+        {
+            if (shitHappens)
+            {
+                label1.Visible = true;
+                shitHappens = false;
+            }
+
+            if(textBox1.Text == rightAws[RichID.ID])
+            {
+                label1.Text = "Верно!";
+                label1.ForeColor = Color.Green;
+            }
+            else
+            {
+                label1.Text = "Не верно!";
+                label1.ForeColor = Color.Red;
             }
         }
     }

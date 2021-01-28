@@ -30,6 +30,9 @@ namespace WindowsFormsApp1.Tasks
         private void InitializeComponent()
         {
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.AwsChk = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -37,9 +40,38 @@ namespace WindowsFormsApp1.Tasks
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(480, 214);
+            this.richTextBox1.Size = new System.Drawing.Size(480, 187);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
+            // 
+            // AwsChk
+            // 
+            this.AwsChk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AwsChk.Location = new System.Drawing.Point(12, 221);
+            this.AwsChk.Name = "AwsChk";
+            this.AwsChk.Size = new System.Drawing.Size(169, 40);
+            this.AwsChk.TabIndex = 1;
+            this.AwsChk.Text = "Проверить";
+            this.AwsChk.UseVisualStyleBackColor = true;
+            this.AwsChk.Click += new System.EventHandler(this.AwsChk_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(267, 221);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(201, 46);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Не верно!";
+            this.label1.Visible = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(0, 193);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(480, 22);
+            this.textBox1.TabIndex = 3;
             // 
             // TaskForm
             // 
@@ -47,18 +79,25 @@ namespace WindowsFormsApp1.Tasks
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(480, 273);
             this.ControlBox = false;
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.AwsChk);
             this.Controls.Add(this.richTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TaskForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MathT1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button AwsChk;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
