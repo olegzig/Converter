@@ -14,13 +14,13 @@ namespace WindowsFormsApp1.Tasks
     {
         bool formNotInv = true;
 
+        Tasks.TaskForm form = new Tasks.TaskForm();
+
         public void IfInvoke()
         {
             if (formNotInv)
             {
-                Tasks.TaskForm form = new Tasks.TaskForm();
                 form.MdiParent = this;
-
                 form.Show();
                 pictureBox1.Hide();
                 formNotInv = false;
@@ -37,24 +37,28 @@ namespace WindowsFormsApp1.Tasks
         {
             IfInvoke();
             RichID.ID = 1;
+            form.LetsChange();
         }
 
         private void MathT1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             IfInvoke();
             RichID.ID = 2;
+            form.LetsChange();
         }
 
         private void PhyisicT2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             IfInvoke();
             RichID.ID = 3;
+            form.LetsChange();
         }
 
         private void MathT2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             IfInvoke();
             RichID.ID = 4;
+            form.LetsChange();
         }
 
     }

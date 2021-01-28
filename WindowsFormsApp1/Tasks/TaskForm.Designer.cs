@@ -37,7 +37,7 @@ namespace WindowsFormsApp1.Tasks
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(480, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(480, 214);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
