@@ -12,6 +12,22 @@ namespace WindowsFormsApp1.Tasks
 {
     public partial class TaskMain : Form
     {
+        bool formNotInv = true;
+
+        public void IfInvoke()
+        {
+            if (formNotInv)
+            {
+                Tasks.TaskForm form = new Tasks.TaskForm();
+                form.MdiParent = this;
+
+                form.Show();
+                pictureBox1.Hide();
+                formNotInv = false;
+                
+            }
+        }
+
         public TaskMain()
         {
             InitializeComponent();
@@ -19,38 +35,27 @@ namespace WindowsFormsApp1.Tasks
 
         private void PhyisicT1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tasks.PhyisicT1 form = new Tasks.PhyisicT1();
-            form.MdiParent = this;
-
-            form.Show();
-            pictureBox1.Hide();
+            IfInvoke();
+            RichID.ID = 1;
         }
 
         private void MathT1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tasks.MathT1 form = new Tasks.MathT1();
-            form.MdiParent = this;
-
-            form.Show();
-            pictureBox1.Hide();
+            IfInvoke();
+            RichID.ID = 2;
         }
 
         private void PhyisicT2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tasks.PhyisicT2 form = new Tasks.PhyisicT2();
-            form.MdiParent = this;
-
-            form.Show();
-            pictureBox1.Hide();
+            IfInvoke();
+            RichID.ID = 3;
         }
 
         private void MathT2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Tasks.MathT2 form = new Tasks.MathT2();
-            form.MdiParent = this;
-
-            form.Show();
-            pictureBox1.Hide();
+            IfInvoke();
+            RichID.ID = 4;
         }
+
     }
 }
