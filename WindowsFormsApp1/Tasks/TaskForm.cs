@@ -13,7 +13,6 @@ namespace WindowsFormsApp1.Tasks
     public partial class TaskForm : Form
     {
         private string[] rightAws = new string[] { "Senjor Le Costylio", "5", "400", "41,87", "12" };
-        bool shitHappens = true;
 
         public TaskForm()
         {
@@ -22,6 +21,7 @@ namespace WindowsFormsApp1.Tasks
 
         public void LetsChange()
         {
+            label1.Visible = false;
             switch (RichID.ID)
             {
                 case 1:
@@ -44,11 +44,8 @@ namespace WindowsFormsApp1.Tasks
 
         private void AwsChk_Click(object sender, EventArgs e)
         {
-            if (shitHappens)
-            {
-                label1.Visible = true;
-                shitHappens = false;
-            }
+            
+            label1.Visible = true;
 
             if(textBox1.Text == rightAws[RichID.ID])
             {
