@@ -38,9 +38,10 @@ namespace WindowsFormsApp1.Tasks
             // richTextBox1
             // 
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(480, 187);
+            this.richTextBox1.Size = new System.Drawing.Size(743, 187);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
@@ -59,7 +60,7 @@ namespace WindowsFormsApp1.Tasks
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(267, 221);
+            this.label1.Location = new System.Drawing.Point(471, 218);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 46);
             this.label1.TabIndex = 2;
@@ -70,14 +71,14 @@ namespace WindowsFormsApp1.Tasks
             // 
             this.textBox1.Location = new System.Drawing.Point(0, 193);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(480, 22);
+            this.textBox1.Size = new System.Drawing.Size(743, 22);
             this.textBox1.TabIndex = 3;
             // 
             // TaskForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 273);
+            this.ClientSize = new System.Drawing.Size(743, 273);
             this.ControlBox = false;
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
