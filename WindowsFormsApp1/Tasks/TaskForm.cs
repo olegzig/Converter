@@ -12,7 +12,7 @@ namespace WindowsFormsApp1.Tasks
 {
     public partial class TaskForm : Form
     {
-        private string[] rightAws = new string[] { "Senjor Le Costylio", "5", "400", "41,87", "12" };
+        private string[] rightAws = new string[] { "Senjor Le Costylio", "5", "400", "41,87", "12","5120","" };
 
         public TaskForm()
         {
@@ -38,6 +38,12 @@ namespace WindowsFormsApp1.Tasks
 
                 case 4:
                     richTextBox1.Text = "Дано: Треугольник с стороной 40 см, и высотой к стороне в 60 см .\nНайти: площадь треугольника выраженную в дм^2 .\nФормулы: Площадь = (1/2)*ah, где а - сторона, h - высота";//m2
+                    break;
+                case 5:
+                    richTextBox1.Text = "Дано: файл 5 мб.\nНайти: его вес выраженные в кб .\n";//m2
+                    break;
+                case 6:
+                    richTextBox1.Text = "Дано:.\n .\n";//m2
                     break;
             }
         }

@@ -61,5 +61,18 @@ namespace WindowsFormsApp1.Tasks
             form.LetsChange();
         }
 
+        private void inform1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IfInvoke();
+            RichID.ID = 5;
+            form.LetsChange();
+        }
+
+        private void inform2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IfInvoke();
+            RichID.ID = 6;
+            form.LetsChange();
+        }
     }
 }
