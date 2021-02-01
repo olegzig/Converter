@@ -12,7 +12,7 @@ namespace WindowsFormsApp1.Tasks
 {
     public partial class TaskForm : Form
     {
-        private string[] rightAws = new string[] { "Senjor Le Costylio", "5", "400", "41,87", "12","5120","" };
+        private string[] rightAws = new string[] { "Senjor Le Costylio", "5", "400", "41,87", "12","5120","177013" };
 
         public TaskForm()
         {
@@ -43,7 +43,7 @@ namespace WindowsFormsApp1.Tasks
                     richTextBox1.Text = "Дано: файл 5 мб.\nНайти: его вес выраженные в кб .\n";//m2
                     break;
                 case 6:
-                    richTextBox1.Text = "Дано:.\n .\n";//m2
+                    richTextBox1.Text = "Дано: число 65035 в восьмеричной системе счисления.\nНайти его в десятиричной системе счисления.\n";//m2
                     break;
             }
         }
