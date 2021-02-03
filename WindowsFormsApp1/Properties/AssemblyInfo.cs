@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
 [assembly: AssemblyTitle("Converter")]
-[assembly: AssemblyDescription("Программа предназначена для использования в обучающих целях. Она содержит учебный материал по физике и по информатике, а так же конвертер велечин для описываемых тем")]
+[assembly: AssemblyDescription("Программа предназначена для использования в обучающих целях. Она содержит учебный материал по физике и по информатике, а так же конвертер велечин для описываемых тем. Содержит функционал для демонстрации возможностей программы")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("УО \"МГКЭлектроники\"")]
 [assembly: AssemblyProduct("Converter")]
-[assembly: AssemblyCopyright("Олег Жгуновский, Артём Кушель Copyright ©  2020")]
+[assembly: AssemblyCopyright("Олег Жгуновский, Артём Кушель 2020-2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
