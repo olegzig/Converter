@@ -55,14 +55,14 @@
             this.информатикаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(622, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(622, 30);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(14, 24);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(14, 26);
             // 
             // PhysicToolStripMenuItem
             // 
@@ -70,7 +70,7 @@
             this.PhyisicT1ToolStripMenuItem,
             this.PhyisicT2ToolStripMenuItem});
             this.PhysicToolStripMenuItem.Name = "PhysicToolStripMenuItem";
-            this.PhysicToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
+            this.PhysicToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
             this.PhysicToolStripMenuItem.Text = "Физика";
             // 
             // PhyisicT1ToolStripMenuItem
@@ -93,7 +93,7 @@
             this.MathT1ToolStripMenuItem,
             this.MathT2ToolStripMenuItem});
             this.MathToolStripMenuItem.Name = "MathToolStripMenuItem";
-            this.MathToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
+            this.MathToolStripMenuItem.Size = new System.Drawing.Size(107, 26);
             this.MathToolStripMenuItem.Text = "Математика";
             // 
             // MathT1ToolStripMenuItem
@@ -116,7 +116,7 @@
             this.inform1ToolStripMenuItem,
             this.inform2ToolStripMenuItem});
             this.информатикаToolStripMenuItem.Name = "информатикаToolStripMenuItem";
-            this.информатикаToolStripMenuItem.Size = new System.Drawing.Size(120, 24);
+            this.информатикаToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
             this.информатикаToolStripMenuItem.Text = "Информатика";
             // 
             // inform1ToolStripMenuItem
@@ -139,9 +139,9 @@
             this.pictureBox1.ErrorImage = global::WindowsFormsApp1.Properties.Resources.baby_licking_window_glass;
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources._1;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(622, 385);
+            this.pictureBox1.Size = new System.Drawing.Size(622, 383);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;

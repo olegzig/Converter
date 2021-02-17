@@ -46,15 +46,6 @@ namespace WindowsFormsApp1
                 case "Петабайт":
                     multiplier = 1125899906842624;
                     break;
-                case "Экзабайт":
-                    multiplier = 1152921504606846976;
-                    break;
-                case "Зетабайт":
-                    multiplier = Double.Parse("1180591620717411303424");
-                    break;
-                case "Йотабайт":
-                    multiplier = double.Parse("1208925819614629174706176");
-                    break;
             }
             return multiplier;
         }
@@ -66,7 +57,7 @@ namespace WindowsFormsApp1
                 if (textBox1.Text == "0") 
                     textBox2.Text = "0";
                 else
-                    textBox2.Text = String.Format("{0:E}", Check_Znach(comboBox1) * Double.Parse(textBox1.Text) / Check_Znach(comboBox2));
+                    textBox2.Text = String.Format("{0:f5}", Check_Znach(comboBox1) * Double.Parse(textBox1.Text) / Check_Znach(comboBox2));
                 if (textBox2.Text == "0,000000E+000") textBox2.Text = "Не переводится";
             }
             catch (DivideByZeroException)

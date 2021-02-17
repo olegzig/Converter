@@ -59,10 +59,7 @@ namespace WindowsFormsApp1
             "Мегабайт",
             "Гигабайт",
             "Терабайт",
-            "Петабайт",
-            "Экзабайт",
-            "Зетабайт",
-            "Йотабайт"});
+            "Петабайт"});
             this.comboBox2.Location = new System.Drawing.Point(19, 69);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox2.Name = "comboBox2";
@@ -110,10 +107,7 @@ namespace WindowsFormsApp1
             "Мегабайт",
             "Гигабайт",
             "Терабайт",
-            "Петабайт",
-            "Экзабайт",
-            "Зетабайт",
-            "Йотабайт"});
+            "Петабайт"});
             this.comboBox1.Location = new System.Drawing.Point(19, 38);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
